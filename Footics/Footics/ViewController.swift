@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     let premier = ["Manchester United", ...]
     let serie = ["Juventus", ...]
     let league1 = ["Paris Saint-German",...]
-    let bundes = ["Byern Munchen", ...]
+    let bundes = ["FC Bayern Munchen", "Borussia Dortmund", "RB Leipzig", "Bayer 04 Leverkusen", "Borussia Monchengladbach", "VfL Wolfsburg", "Eintracht Frankfurt", "SV Werder Bremen", "TSG 1899 Hoffenheim", "Fortuna Düsseldorf", "Hertha Berlin", "FSV Mainz 05", "Sport-Club Freiburg", "FC Schalke 04", "FC Augsburg", "FC Koln", "SC Paderborn 07", "FC Union Berlin"]
     let laliga = ["Real Madrid", ...]
     
     
