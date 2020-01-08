@@ -29,6 +29,8 @@ for fruit in fruits{
     }
 }
 
+fruits.filter(){$0.count > 4 && $0.hasSuffix("e")}.map(){print($0)}
+
 // 문제 3
 
 var score = [100, 87, 65, 94, 88, 41, 52]
@@ -41,6 +43,12 @@ for i in score{
         max = i
         print(max)
     }
+}
+var max2 = 60
+
+score.filter(){$0 > max2}.map(){
+    max2 = $0
+    print(max2)
 }
 
 // 문제 4
@@ -66,6 +74,7 @@ for phone in iphones{
         print(phone)
     }
 }
+iphones.filter(){$0.count > 8}.map(){print($0)}
 
 // 문제 6
 
@@ -76,3 +85,5 @@ for pixel in pixels{
         print(pixel)
     }
 }
+
+pixels.filter(){$0.count > 7}.map(){print($0)}
