@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     let premier = ["Manchester United", "Arsenal", "Aston Villa", "AFC Bournemouth", "Brighton and Hove Albion", "Burnley", "Chelsea", "Crystal Palace", "Everton", "Leicester City", "Liverpool", "Manchester City", "Newcastle United", "Norwich City", "Sheffield United", "Southampton", "Tottenham Hotspur", "Watford", "West Ham United", "Wolverhampton Wanderers"]
     let serie = ["Juventus", "Internazionale", "Lazio", "Roma", "Atlanta", "Bologna", "Brescia", "Cagliari", "Florentina", "Geona", "Hellas Verona", "Lecce", "Milan", "Napoli", "Parma", "Sampdoria", "Sassuolo", "SPAL", "Torino", "Udinese"]
     let league1 = ["Paris Saint-Germain", "Olympique de Marseille", "Stade Rennais FC", "LOSC", "FC Nantes", "Stade de Reims", "AS Monaco", "Angers SCO", "Montpellier Herault SC", "OGC Nice", "RC Strasbourg Alsace", "Olympique Lyonnais", "Girondins de Bordeaux", "AS Saint-Etienne", "Stade Brestois 29", "Dijon FCO", "FC Metz", "Amiens SC", "Nimes Olympique", "Toulouse FC"]
-    let bundes = ["Byern Munchen", ...]
+    let bundes = ["FC Bayern Munchen", "Borussia Dortmund", "RB Leipzig", "Bayer 04 Leverkusen", "Borussia Monchengladbach", "VfL Wolfsburg", "Eintracht Frankfurt", "SV Werder Bremen", "TSG 1899 Hoffenheim", "Fortuna Düsseldorf", "Hertha Berlin", "FSV Mainz 05", "Sport-Club Freiburg", "FC Schalke 04", "FC Augsburg", "FC Koln", "SC Paderborn 07", "FC Union Berlin"]
     let laliga = ["Real Madrid", ...]
     
     
