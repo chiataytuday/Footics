@@ -1,83 +1,163 @@
 [
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Manchester United"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Arsenal"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Aston Villa"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "AFC Bournemouth"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Brighton and Hove Albion"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Burnley"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Chelsea"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Crystal Palace"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Everton"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Leicester City"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Liverpool"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Manchester City"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Newcastle United"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Norwich City"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Sheffield United"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Southampton"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Tottenham Hotspur"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Watford"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "West Ham United"
 },
 {
-  "league" : "Premier League",
+  "league" : "premier",
   "club" : "Wolverhampton Wanderers"
+},
+{
+  "league" : "serie",
+  "club" : "Juventus"
+},
+{
+  "league" : "serie",
+  "club" : "Internazionale"
+},
+{
+  "league" : "serie",
+  "club" : "Lazio"
+},
+{
+  "league" : "serie",
+  "club" : "Roma"
+},
+{
+  "league" : "serie",
+  "club" : "Atlanta"
+},
+{
+  "league" : "serie",
+  "club" : "Bologna"
+},
+{
+  "league" : "serie",
+  "club" : "Brescia"
+},
+{
+  "league" : "serie",
+  "club" : "Cagliari"
+},
+{
+  "league" : "serie",
+  "club" : "Florentina"
+},
+{
+  "league" : "serie",
+  "club" : "Geona"
+},
+{
+  "league" : "serie",
+  "club" : "Hellas Verona"
+},
+{
+  "league" : "serie",
+  "club" : "Lecce"
+},
+{
+  "league" : "serie",
+  "club" : "Milan"
+},
+{
+  "league" : "serie",
+  "club" : "Napoli"
+},
+{
+  "league" : "serie",
+  "club" : "Parma"
+},
+{
+  "league" : "serie",
+  "club" : "Sampdoria"
+},
+{
+  "league" : "serie",
+  "club" : "Sassuolo"
+},
+{
+  "league" : "serie",
+  "club" : "SPAL"
+},
+{
+  "league" : "serie",
+  "club" : "Torino"
+},
+{
+  "league" : "serie",
+  "club" : "Udinese"
 },
 {
   "league" : "league1",
