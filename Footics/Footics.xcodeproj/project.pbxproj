@@ -314,12 +314,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QWMN88L93Y;
-				INFOPLIST_FILE = customTableView/Info.plist;
+				INFOPLIST_FILE = Footics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Ju-Hoon.customTableView";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Ju-Hoon.Footics";
 				PRODUCT_NAME = Footics;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -332,12 +332,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QWMN88L93Y;
-				INFOPLIST_FILE = customTableView/Info.plist;
+				INFOPLIST_FILE = Footics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Ju-Hoon.customTableView";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Ju-Hoon.Footics";
 				PRODUCT_NAME = Footics;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
