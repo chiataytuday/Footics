@@ -1,5 +1,85 @@
 [
 {
+  "league" : "Premier League",
+  "club" : "Manchester United"
+},
+{
+  "league" : "Premier League",
+  "club" : "Arsenal"
+},
+{
+  "league" : "Premier League",
+  "club" : "Aston Villa"
+},
+{
+  "league" : "Premier League",
+  "club" : "AFC Bournemouth"
+},
+{
+  "league" : "Premier League",
+  "club" : "Brighton and Hove Albion"
+},
+{
+  "league" : "Premier League",
+  "club" : "Burnley"
+},
+{
+  "league" : "Premier League",
+  "club" : "Chelsea"
+},
+{
+  "league" : "Premier League",
+  "club" : "Crystal Palace"
+},
+{
+  "league" : "Premier League",
+  "club" : "Everton"
+},
+{
+  "league" : "Premier League",
+  "club" : "Leicester City"
+},
+{
+  "league" : "Premier League",
+  "club" : "Liverpool"
+},
+{
+  "league" : "Premier League",
+  "club" : "Manchester City"
+},
+{
+  "league" : "Premier League",
+  "club" : "Newcastle United"
+},
+{
+  "league" : "Premier League",
+  "club" : "Norwich City"
+},
+{
+  "league" : "Premier League",
+  "club" : "Sheffield United"
+},
+{
+  "league" : "Premier League",
+  "club" : "Southampton"
+},
+{
+  "league" : "Premier League",
+  "club" : "Tottenham Hotspur"
+},
+{
+  "league" : "Premier League",
+  "club" : "Watford"
+},
+{
+  "league" : "Premier League",
+  "club" : "West Ham United"
+},
+{
+  "league" : "Premier League",
+  "club" : "Wolverhampton Wanderers"
+},
+{
   "league" : "league1",
   "club" : "Paris Saint-German"
 },
