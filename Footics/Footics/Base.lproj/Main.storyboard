@@ -1,26 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kk0-PE-dMm">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AuS-XZ-T84">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="koverwatch.ttf">
+            <string>Koverwatch</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="zCi-cR-2T3">
+        <!--League List-->
+        <scene sceneID="PPB-Y6-xlj">
             <objects>
-                <viewController id="kk0-PE-dMm" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qdT-gJ-lC2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController id="ihb-2d-qHb" customClass="LeagueTableViewController" customModule="customTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="db0-xN-Tfd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wa2-HV-GP5" customClass="TableView" customModule="customTableView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="88" width="375" height="636"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LeagueCell" rowHeight="279" id="wkA-rr-5DY" customClass="LeagueTableViewCell" customModule="customTableView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="279"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wkA-rr-5DY" id="uCz-1X-81m">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="279"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Premier" translatesAutoresizingMaskIntoConstraints="NO" id="Wcl-AJ-c5v">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="149"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="150" id="3Th-oV-Zsx"/>
+                                                        <constraint firstAttribute="width" constant="375" id="9CV-Iq-OSo"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXX-pX-DXK">
+                                                    <rect key="frame" x="10" y="189" width="355" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="300" id="3wd-24-5NK"/>
+                                                        <constraint firstAttribute="height" constant="50" id="w4O-YS-BfL"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="SXX-pX-DXK" firstAttribute="leading" secondItem="uCz-1X-81m" secondAttribute="leading" constant="10" id="4Db-Th-3lu"/>
+                                                <constraint firstItem="Wcl-AJ-c5v" firstAttribute="top" secondItem="uCz-1X-81m" secondAttribute="top" id="IyR-c2-vv2"/>
+                                                <constraint firstItem="SXX-pX-DXK" firstAttribute="bottom" secondItem="uCz-1X-81m" secondAttribute="bottom" constant="-40" id="Wsr-Ub-96h"/>
+                                                <constraint firstItem="Wcl-AJ-c5v" firstAttribute="bottom" secondItem="SXX-pX-DXK" secondAttribute="top" constant="-40" id="bye-eb-Zgb"/>
+                                                <constraint firstItem="Wcl-AJ-c5v" firstAttribute="centerX" secondItem="uCz-1X-81m" secondAttribute="centerX" id="fBA-94-JB0"/>
+                                                <constraint firstItem="SXX-pX-DXK" firstAttribute="centerX" secondItem="uCz-1X-81m" secondAttribute="centerX" id="o4s-Ph-FPi"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptLabel" destination="SXX-pX-DXK" id="jRS-j1-j9m"/>
+                                            <outlet property="leagueImage" destination="Wcl-AJ-c5v" id="i8K-op-yQu"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="delegate" destination="ihb-2d-qHb" id="Yxh-0J-0dZ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="tTm-oH-HCY"/>
+                        <constraints>
+                            <constraint firstItem="wa2-HV-GP5" firstAttribute="centerY" secondItem="db0-xN-Tfd" secondAttribute="centerY" id="HsU-iM-Xxu"/>
+                            <constraint firstItem="wa2-HV-GP5" firstAttribute="leading" secondItem="IfG-cB-6wy" secondAttribute="leading" id="OOX-PG-9Lf"/>
+                            <constraint firstItem="wa2-HV-GP5" firstAttribute="centerX" secondItem="db0-xN-Tfd" secondAttribute="centerX" id="fqW-KT-TCc"/>
+                            <constraint firstItem="wa2-HV-GP5" firstAttribute="top" secondItem="IfG-cB-6wy" secondAttribute="top" id="rmg-bF-awS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IfG-cB-6wy"/>
                     </view>
+                    <navigationItem key="navigationItem" title="League List" id="bmJ-J9-rdt"/>
+                    <connections>
+                        <outlet property="LeagueTableView" destination="wa2-HV-GP5" id="L0a-oe-bx7"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="p4L-0P-p2o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="045-t7-gNp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305.79710144927537" y="41.517857142857139"/>
+            <point key="canvasLocation" x="1863.2" y="90.14778325123153"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="j2h-Og-DeS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AuS-XZ-T84" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="cQJ-ss-FxH">
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ihb-2d-qHb" kind="relationship" relationship="rootViewController" id="fVs-Rx-z2a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFn-gr-CC3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953.62318840579712" y="90.401785714285708"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Premier" width="294.5" height="60"/>
+    </resources>
 </document>

@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D3517C223C5C18400903B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3517C123C5C18400903B7E /* AppDelegate.swift */; };
-		9D3517C423C5C18400903B7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3517C323C5C18400903B7E /* SceneDelegate.swift */; };
-		9D3517C623C5C18400903B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3517C523C5C18400903B7E /* ViewController.swift */; };
-		9D3517C923C5C18400903B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3517C723C5C18400903B7E /* Main.storyboard */; };
-		9D3517CB23C5C18600903B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3517CA23C5C18600903B7E /* Assets.xcassets */; };
-		9D3517CE23C5C18600903B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3517CC23C5C18600903B7E /* LaunchScreen.storyboard */; };
+		9D3D91B323CF1D0D0057001B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D91B223CF1D0D0057001B /* AppDelegate.swift */; };
+		9D3D91B523CF1D0D0057001B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D91B423CF1D0D0057001B /* SceneDelegate.swift */; };
+		9D3D91B723CF1D0D0057001B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D91B623CF1D0D0057001B /* ViewController.swift */; };
+		9D3D91BA23CF1D0D0057001B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D91B823CF1D0D0057001B /* Main.storyboard */; };
+		9D3D91BC23CF1D100057001B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D91BB23CF1D100057001B /* Assets.xcassets */; };
+		9D3D91BF23CF1D100057001B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D91BD23CF1D100057001B /* LaunchScreen.storyboard */; };
+		9D3D91CB23CF21740057001B /* LeagueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D91CA23CF21740057001B /* LeagueTableViewController.swift */; };
+		9D3D91CD23CF23B50057001B /* LeagueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D91CC23CF23B50057001B /* LeagueTableViewCell.swift */; };
+		9D3D91D423CF3B110057001B /* NanumPen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D91D123CF37B30057001B /* NanumPen.ttf */; };
+		9D3D91D623CF3C2D0057001B /* koverwatch.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D91D523CF3C2A0057001B /* koverwatch.ttf */; };
+		9DE9393823CF919900BF08F7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9393723CF919900BF08F7 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D3517BE23C5C18400903B7E /* Footics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Footics.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D3517C123C5C18400903B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D3517C323C5C18400903B7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9D3517C523C5C18400903B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9D3517C823C5C18400903B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D3517CA23C5C18600903B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9D3517CD23C5C18600903B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9D3517CF23C5C18600903B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3D91AF23CF1D0D0057001B /* Footics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Footics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3D91B223CF1D0D0057001B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D3D91B423CF1D0D0057001B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9D3D91B623CF1D0D0057001B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D3D91B923CF1D0D0057001B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D3D91BB23CF1D100057001B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D3D91BE23CF1D100057001B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D3D91C023CF1D100057001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3D91CA23CF21740057001B /* LeagueTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTableViewController.swift; sourceTree = "<group>"; };
+		9D3D91CC23CF23B50057001B /* LeagueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTableViewCell.swift; sourceTree = "<group>"; };
+		9D3D91D123CF37B30057001B /* NanumPen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumPen.ttf; sourceTree = "<group>"; };
+		9D3D91D523CF3C2A0057001B /* koverwatch.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = koverwatch.ttf; sourceTree = "<group>"; };
+		9DE9393723CF919900BF08F7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9D3517BB23C5C18400903B7E /* Frameworks */ = {
+		9D3D91AC23CF1D0D0057001B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +47,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D3517B523C5C18400903B7E = {
+		9D3D91A623CF1D0D0057001B = {
 			isa = PBXGroup;
 			children = (
-				9D3517C023C5C18400903B7E /* Footics */,
-				9D3517BF23C5C18400903B7E /* Products */,
+				9DE9393723CF919900BF08F7 /* Default-568h@2x.png */,
+				9D3D91B123CF1D0D0057001B /* Footics */,
+				9D3D91B023CF1D0D0057001B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9D3517BF23C5C18400903B7E /* Products */ = {
+		9D3D91B023CF1D0D0057001B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D3517BE23C5C18400903B7E /* Footics.app */,
+				9D3D91AF23CF1D0D0057001B /* Footics.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D3517C023C5C18400903B7E /* Footics */ = {
+		9D3D91B123CF1D0D0057001B /* Footics */ = {
 			isa = PBXGroup;
 			children = (
-				9D3517C123C5C18400903B7E /* AppDelegate.swift */,
-				9D3517C323C5C18400903B7E /* SceneDelegate.swift */,
-				9D3517C523C5C18400903B7E /* ViewController.swift */,
-				9D3517C723C5C18400903B7E /* Main.storyboard */,
-				9D3517CA23C5C18600903B7E /* Assets.xcassets */,
-				9D3517CC23C5C18600903B7E /* LaunchScreen.storyboard */,
-				9D3517CF23C5C18600903B7E /* Info.plist */,
+				9D3D91CA23CF21740057001B /* LeagueTableViewController.swift */,
+				9D3D91CC23CF23B50057001B /* LeagueTableViewCell.swift */,
+				9D3D91D023CF37AA0057001B /* font */,
+				9D3D91B223CF1D0D0057001B /* AppDelegate.swift */,
+				9D3D91B423CF1D0D0057001B /* SceneDelegate.swift */,
+				9D3D91B623CF1D0D0057001B /* ViewController.swift */,
+				9D3D91B823CF1D0D0057001B /* Main.storyboard */,
+				9D3D91BB23CF1D100057001B /* Assets.xcassets */,
+				9D3D91BD23CF1D100057001B /* LaunchScreen.storyboard */,
+				9D3D91C023CF1D100057001B /* Info.plist */,
 			);
 			path = Footics;
+			sourceTree = "<group>";
+		};
+		9D3D91D023CF37AA0057001B /* font */ = {
+			isa = PBXGroup;
+			children = (
+				9D3D91D523CF3C2A0057001B /* koverwatch.ttf */,
+				9D3D91D123CF37B30057001B /* NanumPen.ttf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D3517BD23C5C18400903B7E /* Footics */ = {
+		9D3D91AE23CF1D0D0057001B /* Footics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D3517D223C5C18600903B7E /* Build configuration list for PBXNativeTarget "Footics" */;
+			buildConfigurationList = 9D3D91C323CF1D100057001B /* Build configuration list for PBXNativeTarget "Footics" */;
 			buildPhases = (
-				9D3517BA23C5C18400903B7E /* Sources */,
-				9D3517BB23C5C18400903B7E /* Frameworks */,
-				9D3517BC23C5C18400903B7E /* Resources */,
+				9D3D91AB23CF1D0D0057001B /* Sources */,
+				9D3D91AC23CF1D0D0057001B /* Frameworks */,
+				9D3D91AD23CF1D0D0057001B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Footics;
-			productName = Footics;
-			productReference = 9D3517BE23C5C18400903B7E /* Footics.app */;
+			productName = customTableView;
+			productReference = 9D3D91AF23CF1D0D0057001B /* Footics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9D3517B623C5C18400903B7E /* Project object */ = {
+		9D3D91A723CF1D0D0057001B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "김주훈";
 				TargetAttributes = {
-					9D3517BD23C5C18400903B7E = {
+					9D3D91AE23CF1D0D0057001B = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = 9D3517B923C5C18400903B7E /* Build configuration list for PBXProject "Footics" */;
+			buildConfigurationList = 9D3D91AA23CF1D0D0057001B /* Build configuration list for PBXProject "Footics" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +133,60 @@
 				en,
 				Base,
 			);
-			mainGroup = 9D3517B523C5C18400903B7E;
-			productRefGroup = 9D3517BF23C5C18400903B7E /* Products */;
+			mainGroup = 9D3D91A623CF1D0D0057001B;
+			productRefGroup = 9D3D91B023CF1D0D0057001B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D3517BD23C5C18400903B7E /* Footics */,
+				9D3D91AE23CF1D0D0057001B /* Footics */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9D3517BC23C5C18400903B7E /* Resources */ = {
+		9D3D91AD23CF1D0D0057001B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D3517CE23C5C18600903B7E /* LaunchScreen.storyboard in Resources */,
-				9D3517CB23C5C18600903B7E /* Assets.xcassets in Resources */,
-				9D3517C923C5C18400903B7E /* Main.storyboard in Resources */,
+				9D3D91D623CF3C2D0057001B /* koverwatch.ttf in Resources */,
+				9D3D91BF23CF1D100057001B /* LaunchScreen.storyboard in Resources */,
+				9D3D91BC23CF1D100057001B /* Assets.xcassets in Resources */,
+				9D3D91D423CF3B110057001B /* NanumPen.ttf in Resources */,
+				9D3D91BA23CF1D0D0057001B /* Main.storyboard in Resources */,
+				9DE9393823CF919900BF08F7 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9D3517BA23C5C18400903B7E /* Sources */ = {
+		9D3D91AB23CF1D0D0057001B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D3517C623C5C18400903B7E /* ViewController.swift in Sources */,
-				9D3517C223C5C18400903B7E /* AppDelegate.swift in Sources */,
-				9D3517C423C5C18400903B7E /* SceneDelegate.swift in Sources */,
+				9D3D91CB23CF21740057001B /* LeagueTableViewController.swift in Sources */,
+				9D3D91CD23CF23B50057001B /* LeagueTableViewCell.swift in Sources */,
+				9D3D91B723CF1D0D0057001B /* ViewController.swift in Sources */,
+				9D3D91B323CF1D0D0057001B /* AppDelegate.swift in Sources */,
+				9D3D91B523CF1D0D0057001B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9D3517C723C5C18400903B7E /* Main.storyboard */ = {
+		9D3D91B823CF1D0D0057001B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9D3517C823C5C18400903B7E /* Base */,
+				9D3D91B923CF1D0D0057001B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9D3517CC23C5C18600903B7E /* LaunchScreen.storyboard */ = {
+		9D3D91BD23CF1D100057001B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9D3517CD23C5C18600903B7E /* Base */,
+				9D3D91BE23CF1D100057001B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +194,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9D3517D023C5C18600903B7E /* Debug */ = {
+		9D3D91C123CF1D100057001B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		9D3517D123C5C18600903B7E /* Release */ = {
+		9D3D91C223CF1D100057001B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,62 +308,64 @@
 			};
 			name = Release;
 		};
-		9D3517D323C5C18600903B7E /* Debug */ = {
+		9D3D91C423CF1D100057001B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Footics/Info.plist;
+				DEVELOPMENT_TEAM = QWMN88L93Y;
+				INFOPLIST_FILE = customTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Ju-Hoon.Footics";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Ju-Hoon.customTableView";
+				PRODUCT_NAME = Footics;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		9D3517D423C5C18600903B7E /* Release */ = {
+		9D3D91C523CF1D100057001B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Footics/Info.plist;
+				DEVELOPMENT_TEAM = QWMN88L93Y;
+				INFOPLIST_FILE = customTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Ju-Hoon.Footics";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kim-Ju-Hoon.customTableView";
+				PRODUCT_NAME = Footics;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D3517B923C5C18400903B7E /* Build configuration list for PBXProject "Footics" */ = {
+		9D3D91AA23CF1D0D0057001B /* Build configuration list for PBXProject "Footics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D3517D023C5C18600903B7E /* Debug */,
-				9D3517D123C5C18600903B7E /* Release */,
+				9D3D91C123CF1D100057001B /* Debug */,
+				9D3D91C223CF1D100057001B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D3517D223C5C18600903B7E /* Build configuration list for PBXNativeTarget "Footics" */ = {
+		9D3D91C323CF1D100057001B /* Build configuration list for PBXNativeTarget "Footics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D3517D323C5C18600903B7E /* Debug */,
-				9D3517D423C5C18600903B7E /* Release */,
+				9D3D91C423CF1D100057001B /* Debug */,
+				9D3D91C523CF1D100057001B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9D3517B623C5C18400903B7E /* Project object */;
+	rootObject = 9D3D91A723CF1D0D0057001B /* Project object */;
 }

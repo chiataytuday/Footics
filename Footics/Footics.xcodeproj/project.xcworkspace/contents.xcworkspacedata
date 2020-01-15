@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Footics.xcodeproj">
+      location = "self:/Users/kimjuhun/Desktop/xcode/customTableView/Footics.xcodeproj">
    </FileRef>
 </Workspace>
