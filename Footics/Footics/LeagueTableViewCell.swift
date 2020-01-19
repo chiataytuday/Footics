@@ -6,5 +6,10 @@ import UIKit
 
 class LeagueTableViewCell: UITableViewCell{
     @IBOutlet var leagueImage: UIImageView!
-    @IBOutlet var descriptLabel: UILabel! 
+    @IBOutlet var descriptLabel: UILabel!
+    
+    @IBOutlet var countryImage: UIImageView!
+    
+    
+    @IBOutlet var countryLabel: UILabel!
 }
