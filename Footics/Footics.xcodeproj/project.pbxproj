@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64F9336ACD8614308294C9AC /* Pods_Footics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F69E4337C0B77F45A2977C /* Pods_Footics.framework */; };
+		9D28CC2623D6DD70007A0552 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D28CC2523D6DD70007A0552 /* GoogleService-Info.plist */; };
+		9D28CC2823D6F5D6007A0552 /* ResultPredictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D28CC2723D6F5D6007A0552 /* ResultPredictViewController.swift */; };
 		9D3D91B323CF1D0D0057001B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D91B223CF1D0D0057001B /* AppDelegate.swift */; };
 		9D3D91B523CF1D0D0057001B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D91B423CF1D0D0057001B /* SceneDelegate.swift */; };
 		9D3D91B723CF1D0D0057001B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D91B623CF1D0D0057001B /* ViewController.swift */; };
@@ -25,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D28CC2523D6DD70007A0552 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D28CC2723D6F5D6007A0552 /* ResultPredictViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPredictViewController.swift; sourceTree = "<group>"; };
 		9D3D91AF23CF1D0D0057001B /* Footics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Footics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3D91B223CF1D0D0057001B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D3D91B423CF1D0D0057001B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +47,9 @@
 		9D6DCFE423D31617008330A2 /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
 		9DE9393723CF919900BF08F7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9DE9393923CF94FD00BF08F7 /* ClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubViewController.swift; sourceTree = "<group>"; };
+		B6A1CE45168FE0FA2E76A621 /* Pods-Footics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Footics.release.xcconfig"; path = "Target Support Files/Pods-Footics/Pods-Footics.release.xcconfig"; sourceTree = "<group>"; };
+		E9F69E4337C0B77F45A2977C /* Pods_Footics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Footics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BFE1E6818270BA607D5FB5 /* Pods-Footics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Footics.debug.xcconfig"; path = "Target Support Files/Pods-Footics/Pods-Footics.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,18 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F9336ACD8614308294C9AC /* Pods_Footics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		169637A35895B3CD7121FC95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9F69E4337C0B77F45A2977C /* Pods_Footics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D3D91A623CF1D0D0057001B = {
 			isa = PBXGroup;
 			children = (
 				9DE9393723CF919900BF08F7 /* Default-568h@2x.png */,
 				9D3D91B123CF1D0D0057001B /* Footics */,
 				9D3D91B023CF1D0D0057001B /* Products */,
+				DD440536942B8DE6AD56814B /* Pods */,
+				169637A35895B3CD7121FC95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,7 +107,9 @@
 				9DE9393923CF94FD00BF08F7 /* ClubViewController.swift */,
 				9D6DCFE023D30A00008330A2 /* ClubCollectionViewCell.swift */,
 				9D6DCFE423D31617008330A2 /* ImageViewerViewController.swift */,
+				9D28CC2523D6DD70007A0552 /* GoogleService-Info.plist */,
 				9D6DCFE123D30A00008330A2 /* ClubCollectionViewCell.xib */,
+				9D28CC2723D6F5D6007A0552 /* ResultPredictViewController.swift */,
 			);
 			path = Footics;
 			sourceTree = "<group>";
@@ -102,6 +123,15 @@
 			path = font;
 			sourceTree = "<group>";
 		};
+		DD440536942B8DE6AD56814B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3BFE1E6818270BA607D5FB5 /* Pods-Footics.debug.xcconfig */,
+				B6A1CE45168FE0FA2E76A621 /* Pods-Footics.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D3D91C323CF1D100057001B /* Build configuration list for PBXNativeTarget "Footics" */;
 			buildPhases = (
+				D7CD7C87C8E8418BA3474F1A /* [CP] Check Pods Manifest.lock */,
 				9D3D91AB23CF1D0D0057001B /* Sources */,
 				9D3D91AC23CF1D0D0057001B /* Frameworks */,
 				9D3D91AD23CF1D0D0057001B /* Resources */,
+				4BF5245B5516F2145A8D2E30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D3D91D623CF3C2D0057001B /* koverwatch.ttf in Resources */,
+				9D28CC2623D6DD70007A0552 /* GoogleService-Info.plist in Resources */,
 				9D3D91BF23CF1D100057001B /* LaunchScreen.storyboard in Resources */,
 				9D3D91BC23CF1D100057001B /* Assets.xcassets in Resources */,
 				9D3D91D423CF3B110057001B /* NanumPen.ttf in Resources */,
@@ -172,12 +205,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BF5245B5516F2145A8D2E30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Footics/Pods-Footics-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Footics/Pods-Footics-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Footics/Pods-Footics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CD7C87C8E8418BA3474F1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Footics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D3D91AB23CF1D0D0057001B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9D3D91CB23CF21740057001B /* LeagueTableViewController.swift in Sources */,
+				9D28CC2823D6F5D6007A0552 /* ResultPredictViewController.swift in Sources */,
 				9D6DCFE223D30A00008330A2 /* ClubCollectionViewCell.swift in Sources */,
 				9DE9393A23CF94FD00BF08F7 /* ClubViewController.swift in Sources */,
 				9D3D91CD23CF23B50057001B /* LeagueTableViewCell.swift in Sources */,
@@ -326,6 +402,7 @@
 		};
 		9D3D91C423CF1D100057001B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3BFE1E6818270BA607D5FB5 /* Pods-Footics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -344,6 +421,7 @@
 		};
 		9D3D91C523CF1D100057001B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A1CE45168FE0FA2E76A621 /* Pods-Footics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

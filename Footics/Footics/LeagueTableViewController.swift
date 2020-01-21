@@ -16,6 +16,7 @@ class LeagueTableViewController: UIViewController{
     
     var giveText = ""
     var giveArray : [String] = []
+    var giveCountryName = ""
     let premier = ["Arsenal", "Aston Villa", "AFC Bournemouth", "Brighton and Hove Albion", "Burnley", "Chelsea", "Crystal Palace", "Everton", "Leicester City", "Liverpool", "Manchester City", "Manchester United",  "Newcastle United", "Norwich City", "Sheffield United", "Southampton", "Tottenham Hotspur", "Watford", "West Ham United", "Wolverhampton Wanderers"]
     
     let laliga = ["Athletic Club", "Atletico de Madrid", "C.A. Osasuna", "CD Leganes", "D. Alaves", "FC Barcelona", "Getafe CF", "Granada CF", "Levante UD", "RC Celta", "RCD Espanyol de Barrcelona", "RCD Mallorca","Real Betis","Real Madrid","Real Sociedad", "Real Valladolid CF", "SD Eibar", "Sevilla FC", "Valencia CF", "Villarreal CF"]
@@ -48,6 +49,7 @@ class LeagueTableViewController: UIViewController{
         let param = segue.destination as! ClubViewController
         param.receivedClubName = giveText
         param.receivedClubArray = giveArray
+        param.receivedCountryName = giveCountryName
     }
 }
 
@@ -74,6 +76,7 @@ extension LeagueTableViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         giveText = leagueList[indexPath.row].description
+        giveCountryName = leagueList[indexPath.row].countryLabel
         switch indexPath.row{
         case 0:
             giveArray = premier
