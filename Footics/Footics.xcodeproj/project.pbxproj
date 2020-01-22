@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C87CA8A23D8221B00158B51 /* ResultPredict.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C87CA8923D8221B00158B51 /* ResultPredict.storyboard */; };
 		64F9336ACD8614308294C9AC /* Pods_Footics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F69E4337C0B77F45A2977C /* Pods_Footics.framework */; };
 		9D28CC2623D6DD70007A0552 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D28CC2523D6DD70007A0552 /* GoogleService-Info.plist */; };
 		9D28CC2823D6F5D6007A0552 /* ResultPredictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D28CC2723D6F5D6007A0552 /* ResultPredictViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C87CA8923D8221B00158B51 /* ResultPredict.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResultPredict.storyboard; sourceTree = "<group>"; };
 		9D28CC2523D6DD70007A0552 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9D28CC2723D6F5D6007A0552 /* ResultPredictViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPredictViewController.swift; sourceTree = "<group>"; };
 		9D3D91AF23CF1D0D0057001B /* Footics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Footics.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				9D28CC2523D6DD70007A0552 /* GoogleService-Info.plist */,
 				9D6DCFE123D30A00008330A2 /* ClubCollectionViewCell.xib */,
 				9D28CC2723D6F5D6007A0552 /* ResultPredictViewController.swift */,
+				0C87CA8923D8221B00158B51 /* ResultPredict.storyboard */,
 			);
 			path = Footics;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D3D91D623CF3C2D0057001B /* koverwatch.ttf in Resources */,
+				0C87CA8A23D8221B00158B51 /* ResultPredict.storyboard in Resources */,
 				9D28CC2623D6DD70007A0552 /* GoogleService-Info.plist in Resources */,
 				9D3D91BF23CF1D100057001B /* LaunchScreen.storyboard in Resources */,
 				9D3D91BC23CF1D100057001B /* Assets.xcassets in Resources */,
