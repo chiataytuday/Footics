@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AuS-XZ-T84">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AuS-XZ-T84">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -182,6 +182,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="X4w-Ej-kbe"/>
+                                    <constraint firstAttribute="width" constant="349" id="d2K-Uv-sK7"/>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jds-ei-QCD">
@@ -189,7 +190,7 @@
                                 <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="22"/>
                                 <connections>
                                     <action selector="predictViewButton:" destination="jww-vy-WCw" eventType="touchUpInside" id="lmo-qS-BPj"/>
-                                    <segue destination="dVv-1T-aWD" kind="show" identifier="predictResultShowIdentifier" id="sq0-Zk-2u5"/>
+                                    <segue destination="RAB-kI-klF" kind="show" identifier="predictResultShowIdentifier" id="Qk6-OX-DSh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -263,53 +264,16 @@
                                     <segue destination="Aa7-T5-8Ry" kind="unwind" unwindAction="unwindToClubView:" id="GeV-lQ-jO3"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KOn-b6-s9o" customClass="TeamSquadTable" customModule="Footics" customModuleProvider="target">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KOn-b6-s9o">
                                 <rect key="frame" x="0.0" y="287" width="375" height="444"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="teamMember" rowHeight="72" id="LDS-Ef-CDi" customClass="ImageViewerCell" customModule="Footics" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="72"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="teamMember" id="LDS-Ef-CDi">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LDS-Ef-CDi" id="TVH-r4-4QC">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0R1-E3-W8A">
-                                                    <rect key="frame" x="10" y="40" width="355" height="22"/>
-                                                    <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="18"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKX-Id-8oI">
-                                                    <rect key="frame" x="10" y="10" width="16" height="20"/>
-                                                    <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAS-x8-wg2">
-                                                    <rect key="frame" x="33.333333333333343" y="10" width="331.66666666666663" height="20"/>
-                                                    <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="WAS-x8-wg2" firstAttribute="centerY" secondItem="TKX-Id-8oI" secondAttribute="centerY" id="4dY-g3-Yhb"/>
-                                                <constraint firstItem="TKX-Id-8oI" firstAttribute="top" secondItem="TVH-r4-4QC" secondAttribute="top" constant="10" id="9JJ-Gm-icc"/>
-                                                <constraint firstItem="0R1-E3-W8A" firstAttribute="leading" secondItem="TVH-r4-4QC" secondAttribute="leading" constant="10" id="HY3-1v-qzw"/>
-                                                <constraint firstItem="TKX-Id-8oI" firstAttribute="leading" secondItem="TVH-r4-4QC" secondAttribute="leading" constant="10" id="ITw-aC-mdA"/>
-                                                <constraint firstItem="0R1-E3-W8A" firstAttribute="top" secondItem="TKX-Id-8oI" secondAttribute="bottom" constant="10" id="N9O-oa-rlG"/>
-                                                <constraint firstItem="WAS-x8-wg2" firstAttribute="leading" secondItem="TKX-Id-8oI" secondAttribute="trailing" multiplier="0.9" constant="10" id="Usu-Uc-9pt"/>
-                                                <constraint firstItem="0R1-E3-W8A" firstAttribute="trailing" secondItem="TVH-r4-4QC" secondAttribute="trailing" constant="-10" id="Zdb-jX-FLP"/>
-                                                <constraint firstItem="0R1-E3-W8A" firstAttribute="bottom" secondItem="TVH-r4-4QC" secondAttribute="bottom" constant="-10" id="bHI-Bx-sfQ"/>
-                                                <constraint firstItem="WAS-x8-wg2" firstAttribute="trailing" secondItem="TVH-r4-4QC" secondAttribute="trailing" constant="-10" id="fXz-cP-xsb"/>
-                                                <constraint firstItem="WAS-x8-wg2" firstAttribute="top" secondItem="TVH-r4-4QC" secondAttribute="top" constant="10" id="fiS-eQ-QGN"/>
-                                            </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="playerCountryLabel" destination="0R1-E3-W8A" id="cdf-zb-sWX"/>
-                                            <outlet property="playerNameLabel" destination="WAS-x8-wg2" id="x7w-kz-oaB"/>
-                                            <outlet property="playerNumberLabel" destination="TKX-Id-8oI" id="yU6-r8-gFn"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <sections/>
@@ -368,73 +332,6 @@
             </objects>
             <point key="canvasLocation" x="3780" y="88.669950738916256"/>
         </scene>
-        <!--Result Predict View Controller-->
-        <scene sceneID="RUj-ht-n1f">
-            <objects>
-                <viewController storyboardIdentifier="ResultView" id="dVv-1T-aWD" customClass="ResultPredictViewController" customModule="Footics" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="VBK-WT-jD0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="hY9-30-UV9">
-                                <rect key="frame" x="20" y="150" width="335" height="20"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQ2-BP-tTR">
-                                        <rect key="frame" x="0.0" y="0.0" width="127.66666666666667" height="20"/>
-                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPF-2k-xBV">
-                                        <rect key="frame" x="207.66666666666666" y="0.0" width="127.33333333333334" height="20"/>
-                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="slb-yl-6aH">
-                                <rect key="frame" x="20" y="190" width="335" height="130"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="px2-c7-TYc">
-                                        <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="130" id="K2X-Ke-av2"/>
-                                            <constraint firstAttribute="height" constant="130" id="vro-mK-biR"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wqa-H2-uHh">
-                                        <rect key="frame" x="210" y="0.0" width="125" height="130"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="130" id="J1o-5d-GEk"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="hY9-30-UV9" firstAttribute="top" secondItem="0rq-4X-Vzy" secondAttribute="top" constant="10" id="1Qx-Ed-RDj"/>
-                            <constraint firstItem="slb-yl-6aH" firstAttribute="leading" secondItem="VBK-WT-jD0" secondAttribute="leading" constant="20" id="8iE-X5-fMw"/>
-                            <constraint firstItem="slb-yl-6aH" firstAttribute="top" secondItem="0rq-4X-Vzy" secondAttribute="top" constant="50" id="FSN-vP-WJh"/>
-                            <constraint firstItem="hY9-30-UV9" firstAttribute="trailing" secondItem="VBK-WT-jD0" secondAttribute="trailing" constant="-20" id="IFO-mG-Esw"/>
-                            <constraint firstItem="slb-yl-6aH" firstAttribute="trailing" secondItem="VBK-WT-jD0" secondAttribute="trailing" constant="-20" id="ZMG-CA-cD2"/>
-                            <constraint firstItem="hY9-30-UV9" firstAttribute="leading" secondItem="VBK-WT-jD0" secondAttribute="leading" constant="20" id="opC-Jx-Av6"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="0rq-4X-Vzy"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8LC-Zd-35i"/>
-                    <connections>
-                        <outlet property="teamOneLogo" destination="px2-c7-TYc" id="8GK-wI-8md"/>
-                        <outlet property="teamOneName" destination="tQ2-BP-tTR" id="fr4-gh-fEl"/>
-                        <outlet property="teamTwoLogo" destination="wqa-H2-uHh" id="ge6-ey-lZc"/>
-                        <outlet property="teamTwoName" destination="xPF-2k-xBV" id="L9A-6d-OVd"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NVM-UH-lto" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3780" y="826.84729064039414"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="j2h-Og-DeS">
             <objects>
@@ -452,6 +349,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFn-gr-CC3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="953.62318840579712" y="90.401785714285708"/>
+        </scene>
+        <!--ResultView-->
+        <scene sceneID="iiO-CP-jUJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ResultPredict" referencedIdentifier="ResultView" id="RAB-kI-klF" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="696-V3-sy7"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2aH-9y-7rN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2925" y="752"/>
         </scene>
     </scenes>
     <resources>

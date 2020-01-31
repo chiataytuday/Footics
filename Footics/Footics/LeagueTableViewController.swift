@@ -17,19 +17,19 @@ class LeagueTableViewController: UIViewController{
     var giveText = ""
     var giveArray : [String] = []
     var giveCountryName = ""
-    let premier = ["Arsenal", "Aston Villa", "AFC Bournemouth", "Brighton and Hove Albion", "Burnley FC", "Chelsea FC", "Crystal Palace", "Everton", "Leicester City", "Liverpool", "Manchester City", "Manchester United",  "Newcastle United", "Norwich City", "Sheffield United", "Southampton", "Tottenham Hotspur", "Watford", "West Ham United", "Wolverhampton Wanderers"]
+    let premier = ["Arsenal", "Aston Villa", "AFC Bournemouth", "Brighton and Hove Albion", "Burnley", "Chelsea", "Crystal Palace", "Everton", "Leicester City", "Liverpool", "Manchester City", "Manchester United",  "Newcastle United", "Norwich City", "Sheffield United", "Southampton", "Tottenham Hotspur", "Watford", "West Ham United", "Wolverhampton Wanderers"]
     
-    let laliga = ["Athletic Club", "Atletico de Madrid", "Osasuna", "CD Leganes", "Alaves", "FC Barcelona", "Getafe CF", "Granada CF", "Levante UD", "RC Celta", "RCD Espanyol", "RCD Mallorca","Real Betis","Real Madrid","Real Sociedad", "Real Valladolid CF", "SD Eibar", "Sevilla FC", "Valencia CF", "Villarreal CF"]
+    let laliga = ["Athletic Club", "Atletico de Madrid", "C.A. Osasuna", "CD Leganes", "D. Alaves", "FC Barcelona", "Getafe CF", "Granada CF", "Levante UD", "RC Celta", "RCD Espanyol de Barrcelona", "RCD Mallorca","Real Betis","Real Madrid","Real Sociedad", "Real Valladolid CF", "SD Eibar", "Sevilla FC", "Valencia CF", "Villarreal CF"]
     
-    let serie = ["Atalanta BC","Bologna FC", "Brescia Calcio", "Cagliari Calcio", "ACF Fiorentina", "Genoa CFC", "Hellas Verona FC", "FC Inter Milan", "Juventus FC", "SS Lazio", "US Lecce", "AC Milan", "SSC Napoli", "Parma Calcio", "AS Roma", "UC Sampdoria", "US Sassuolo", "SPAL", "Torino FC", "Udinese Calcio"]
+    let serie = ["Atalanta","Bologna FC", "Brescia Calcio", "Cagliari Calcio", "ACF Fiorentina", "Genoa C.F.C.", "Hellas Verona F.C.", "FC Inter Milan", "Juventus FC", "S.S. Lazio", "U.S. Lecce", "A.C. Milan", "S.S.C. Napoli", "Parma Calcio", "A.S. Roma", "U.C. Sampdoria", "U.S. Sassuolo", "S.P.A.L.", "Torino F.C.", "Udinese Calcio"]
     
-    let bundesliga = ["FC Bayern München","Borussia Dortmund","RB Leipzig", "Bayer 04 Leverkusen", "Borussia Mönchengladbach", "VfL Wolfsburg", "Eintracht Frankfurt", "SV Werder Bremen", "TSG 1899 Hoffenheim", "Fortuna Düsseldorf", "Hertha Berlin", "FSV Mainz 05", "SC Freiburg", "FC Schalke 04", "FC Augsburg", "FC Köln", "SC Paderborn 07", "FC Union Berlin"]
+    let bundesliga = ["FC Bayern München","Borussia Dortmund","RB Leipzig", "Bayer 04 Leverkusen", "Borussia Mönchengladbach", "VfL Wolfsburg", "Eintracht Frankfurt", "SV Werder Bremen", "TSG 1899 Hoffenheim", "Fortuna Düsseldorf", "Hertha Berlin", "1. FSV Mainz 05", "Sport-Club Freiburg", "FC Schalke 04", "FC Augsburg", "1. FC Köln", "SC Paderborn 07", "1. FC Union Berlin"]
     
-    let league1 = ["PARIS SAINT-GERMAIN", "OLYMPIQUE DE MARSEILLE", "Stade Rennais FC", "FC NANTES", "LOSC Lille", "MONTPELLIER HSC", "OLYMPIQUE LYONNAIS", "STADE DE REIMS", "AS Monaco FC", "ANGERS SCO", "OGC NICE", "RC Strasbourg Alsace", "FC GIRONDINS DE BORDEAUX", "AS SAINT-ETIENNE", "Dijon FCO", "FC Metz", "AMIENS SC", "NIMES OLYMPIQUE", "Toulouse FC"]
+    let league1 = ["PARIS SAINT-GERMAIN", "OLYMPIQUE DE MARSEILLE", "Stade Rennais F.C.", "FC NANTES", "LOSC Lille", "MONTPELLIER HSC", "OLYMPIQUE LYONNAIS", "STADE DE REIMS", "AS Monaco FC", "ANGERS SCO", "OGC NICE", "RC Strasbourg Alsace", "FC GIRONDINS DE BORDEAUX", "AS SAINT-ETIENNE", "Dijon FCO", "FC Metz", "AMIENS SC", "NIMES OLYMPIQUE", "Toulouse FC"]
     
     var leagueList:[League] = [
         League(leagueImage: "Premier", description: "Premier League", countryImage: "England", countryLabel: "England"),
-    League(leagueImage: "Laliga", description: "Laliga", countryImage: "Spain", countryLabel: "Spain"),
+    League(leagueImage: "Laliga", description: "Primera Liga", countryImage: "Spain", countryLabel: "Spain"),
     League(leagueImage: "SerieA", description: "SerieA", countryImage: "Italy", countryLabel: "Italy"),
     League(leagueImage: "Bundesliga", description: "Bundesliga", countryImage: "Germany", countryLabel: "Germany"),
     League(leagueImage: "league1", description: "League1", countryImage: "France", countryLabel: "France"),
