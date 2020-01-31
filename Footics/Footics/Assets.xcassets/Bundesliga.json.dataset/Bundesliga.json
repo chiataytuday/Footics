@@ -1,0 +1,2864 @@
+[
+    {
+        "ClubName": "Bayer 04 Leverkusen",
+        "Ground" : "BayArena",
+        "HeadCoach" : "Peter Bosz",
+        "Defender" : [
+            {
+                "number" : 3,
+                "country" : "Greece",
+                "name" : "Panagiotis Retsos"
+            },
+            {
+                "number" : 4,
+                "country" : "Germany",
+                "name" : "Jonathan Tah"
+            },
+            {
+                "number" : 6,
+                "country" : "Austria",
+                "name" : "Aleksandar Dragović"
+            },
+            {
+                "number" : 18,
+                "country" : "Brazil",
+                "name" : "Wendell"
+            },
+            {
+                "number" : 22,
+                "country" : "Netherlands",
+                "name" : "Daley Sinkgraven"
+            },
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Mitchell Weiser"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Brazil",
+                "name" : "Paulinho"
+            },
+            {
+                "number" : 9,
+                "country" : "Jamaica",
+                "name" : "Leon Bailey"
+            },
+            {
+                "number" : 13,
+                "country" : "Argentina",
+                "name" : "Lucas Alario"
+            },
+            {
+                "number" : 17,
+                "country" : "Finland",
+                "name" : "Joel Pohjanpalo"
+            },
+            {
+                "number" : 19,
+                "country" : "France",
+                "name" : "Moussa Diaby"
+            },
+            {
+                "number" : 31,
+                "country" : "Germany",
+                "name" : "Kevin Volland"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Finland",
+                "name" : "Lukáš Hrádecký"
+            },
+            {
+                "number" : 28,
+                "country" : "Austria",
+                "name" : "Ramazan Özcan"
+            },
+            {
+                "number" : 36,
+                "country" : "Germany",
+                "name" : "Niklas Lomb"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Germany",
+                "name" : "Sven Bender"
+            },
+            {
+                "number" : 8,
+                "country" : "Germany",
+                "name" : "Lars Bender"
+            },
+            {
+                "number" : 10,
+                "country" : "Germany",
+                "name" : "Kerem Demirbay"
+            },
+            {
+                "number" : 11,
+                "country" : "Germany",
+                "name" : "Nadiem Amiri"
+            },
+            {
+                "number" : 15,
+                "country" : "Austria",
+                "name" : "Julian Baumgartlinger"
+            },
+            {
+                "number" : 20,
+                "country" : "Chile",
+                "name" : "Charles Aránguiz"
+            },
+            {
+                "number" : 25,
+                "country" : "Argentina",
+                "name" : "Exequiel Palacios"
+            },
+            {
+                "number" : 29,
+                "country" : "Germany",
+                "name" : "Kai Havertz"
+            },
+            {
+                "number" : 35,
+                "country" : "Poland",
+                "name" : "Adrian Stanilewicz"
+            },
+            {
+                "number" : 38,
+                "country" : "Germany",
+                "name" : "Karim Bellarabi"
+            }
+        ]
+    },
+    
+    
+    {
+        "ClubName": "Borussia Dortmund",
+        "Ground" : "Westfalenstadion",
+        "HeadCoach" : "Lucien Favre",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "France",
+                "name" : "Dan-Axel Zagadou"
+            },
+            {
+                "number" : 5,
+                "country" : "Morocco",
+                "name" : "Achraf Hakimi"
+            },
+            {
+                "number" : 13,
+                "country" : "Portugal",
+                "name" : "Raphaël Guerreiro"
+            },
+            {
+                "number" : 14,
+                "country" : "Germany",
+                "name" : "Nico Schulz"
+            },
+            {
+                "number" : 15,
+                "country" : "Germany",
+                "name" : "Mats Hummels"
+            },
+            {
+                "number" : 16,
+                "country" : "Switzerland",
+                "name" : "Manuel Akanji"
+            },
+            {
+                "number" : 18,
+                "country" : "Argentina",
+                "name" : "Leonardo Balerdi"
+            },
+            {
+                "number" : 22,
+                "country" : "Spain",
+                "name" : "Mateu Morey"
+            },
+            {
+                "number" : 26,
+                "country" : "Poland",
+                "name" : "Łukasz Piszczek"
+            },
+            {
+                "number" : 29,
+                "country" : "Germany",
+                "name" : "Marcel Schmelzer"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Spain",
+                "name" : "Paco Alcácer"
+            },
+            {
+                "number" : 11,
+                "country" : "Germany",
+                "name" : "Marco Reus"
+            },
+            {
+                "number" : 17,
+                "country" : "Norway",
+                "name" : "Erling Braut Håland"
+            },
+            {
+                "number" : 34,
+                "country" : "Denmark",
+                "name" : "Jacob Bruun Larsen"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Switzerland",
+                "name" : "Roman Bürki"
+            },
+            {
+                "number" : 25,
+                "country" : "Germany",
+                "name" : "Luca Unbehaun"
+            },
+            {
+                "number" : 35,
+                "country" : "Switzerland",
+                "name" : "Marwin Hitz"
+            },
+            {
+                "number" : 40,
+                "country" : "Germany",
+                "name" : "Eric Oelschlägel"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Denmark",
+                "name" : "Thomas Delaney"
+            },
+            {
+                "number" : 7,
+                "country" : "England",
+                "name" : "Jadon Sancho"
+            },
+            {
+                "number" : 8,
+                "country" : "Germany",
+                "name" : "Mahmoud Dahoud"
+            },
+            {
+                "number" : 10,
+                "country" : "Germany",
+                "name" : "Mario Götze"
+            },
+            {
+                "number" : 19,
+                "country" : "Germany",
+                "name" : "Julian Brandt"
+            },
+            {
+                "number" : 23,
+                "country" : "Bergium",
+                "name" : "Thorgan Hazard"
+            },
+            {
+                "number" : 28,
+                "country" : "Bergium",
+                "name" : "Axel Witsel"
+            },
+            {
+                "number" : 37,
+                "country" : "Germany",
+                "name" : "Tobias Raschl"
+            }
+        ]
+    },
+    
+    
+    {
+        "ClubName": "Borussia Mönchengladbach",
+        "Ground" : "Borussia-Park",
+        "HeadCoach" : "Marco Rose",
+        "Defender" : [
+            {
+                "number" : 4,
+                "country" : "France",
+                "name" : "Mamadou Doucouré"
+            },
+            {
+                "number" : 17,
+                "country" : "Sweden",
+                "name" : "Oscar Wendt"
+            },
+            {
+                "number" : 18,
+                "country" : "Austria",
+                "name" : "Stefan Lainer"
+            },
+            {
+                "number" : 24,
+                "country" : "Germany",
+                "name" : "Tony Jantschke"
+            },
+            {
+                "number" : 25,
+                "country" : "Algeria",
+                "name" : "Ramy Bensebaini"
+            },
+            {
+                "number" : 28,
+                "country" : "Germany",
+                "name" : "Matthias Ginter"
+            },
+            {
+                "number" : 30,
+                "country" : "Switzerland",
+                "name" : "Nico Elvedi"
+            },
+            {
+                "number" : 38,
+                "country" : "Germany",
+                "name" : "Marcel Benger"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 10,
+                "country" : "France",
+                "name" : "Marcus Thuram"
+            },
+            {
+                "number" : 11,
+                "country" : "Brazil",
+                "name" : "Raffael"
+            },
+            {
+                "number" : 13,
+                "country" : "Germany",
+                "name" : "Lars Stindl"
+            },
+            {
+                "number" : 14,
+                "country" : "France",
+                "name" : "Alassane Pléa"
+            },
+            {
+                "number" : 26,
+                "country" : "Germany",
+                "name" : "Torben Müsel"
+            },
+            {
+                "number" : 36,
+                "country" : "Switzerland",
+                "name" : "Breel Embolo"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Switzerland",
+                "name" : "Yann Sommer"
+            },
+            {
+                "number" : 21,
+                "country" : "Germany",
+                "name" : "Tobias Sippel"
+            },
+            {
+                "number" : 31,
+                "country" : "Germany",
+                "name" : "Max Grün"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Germany",
+                "name" : "Tobias Strobl"
+            },
+            {
+                "number" : 6,
+                "country" : "Germany",
+                "name" : "Christoph Kramer"
+            },
+            {
+                "number" : 7,
+                "country" : "Germany",
+                "name" : "Patrick Herrmann"
+            },
+            {
+                "number" : 8,
+                "country" : "Switzerland",
+                "name" : "Denis Zakaria"
+            },
+            {
+                "number" : 16,
+                "country" : "Guinea",
+                "name" : "Ibrahima Traoré"
+            },
+            {
+                "number" : 19,
+                "country" : "United_States",
+                "name" : "Fabian Johnson"
+            },
+            {
+                "number" : 22,
+                "country" : "Slovakia",
+                "name" : "László Bénes"
+            },
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Jonas Hofmann"
+            },
+            {
+                "number" : 32,
+                "country" : "Germany",
+                "name" : "Florian Neuhaus"
+            },
+            {
+                "number" : 37,
+                "country" : "England",
+                "name" : "Keanan Bennetts"
+            }
+        ]
+    },
+    
+    
+    {
+        "ClubName": "Eintracht Frankfurt",
+        "Ground" : "Commerzbank-Arena",
+        "HeadCoach" : "Adi Hütter",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "France",
+                "name" : "Evan N'Dicka"
+            },
+            {
+                "number" : 13,
+                "country" : "Austria",
+                "name" : "Martin Hinteregger"
+            },
+            {
+                "number" : 18,
+                "country" : "France",
+                "name" : "Almamy Touré"
+            },
+            {
+                "number" : 19,
+                "country" : "Argentina",
+                "name" : "David Abraham"
+            },
+            {
+                "number" : 22,
+                "country" : "United_States",
+                "name" : "Timothy Chandler"
+            },
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Marco Russ"
+            },
+            {
+                "number" : 24,
+                "country" : "Germany",
+                "name" : "Danny da Costa"
+            },
+            {
+                "number" : 25,
+                "country" : "Germany",
+                "name" : "Erik Durm"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Croatia",
+                "name" : "Dejan Joveljić"
+            },
+            {
+                "number" : 9,
+                "country" : "Netherlands",
+                "name" : "Bas Dost"
+            },
+            {
+                "number" : 33,
+                "country" : "Portugal",
+                "name" : "André Silva"
+            },
+            {
+                "number" : 39,
+                "country" : "Portugal",
+                "name" : "Gonçalo Paciência"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Kevin Trapp"
+            },
+            {
+                "number" : 29,
+                "country" : "Germany",
+                "name" : "Felix Wiedwald"
+            },
+            {
+                "number" : 32,
+                "country" : "Denmark",
+                "name" : "Frederik Rønnow"
+            },
+            {
+                "number" : 37,
+                "country" : "Germany",
+                "name" : "Jan Zimmermann"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Switzerland",
+                "name" : "Gelson Fernandes"
+            },
+            {
+                "number" : 6,
+                "country" : "Netherlands",
+                "name" : "Jonathan de Guzmán"
+            },
+            {
+                "number" : 8,
+                "country" : "Switzerland",
+                "name" : "Djibril Sow"
+            },
+            {
+                "number" : 10,
+                "country" : "Croatia",
+                "name" : "Filip Kostić"
+            },
+            {
+                "number" : 11,
+                "country" : "Croatia",
+                "name" : "Mijat Gaćinović"
+            },
+            {
+                "number" : 15,
+                "country" : "Japan",
+                "name" : "Daichi Kamada"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Lucas Torró"
+            },
+            {
+                "number" : 17,
+                "country" : "Germany",
+                "name" : "Sebastian Rode"
+            },
+            {
+                "number" : 20,
+                "country" : "Japan",
+                "name" : "Makoto Hasebe"
+            },
+            {
+                "number" : 26,
+                "country" : "Germany",
+                "name" : "Nils Stendera"
+            },
+            {
+                "number" : 28,
+                "country" : "Japan",
+                "name" : "Dominik Kohr"
+            },
+            {
+                "number" : 30,
+                "country" : "Germany",
+                "name" : "Şahverdi Çetin"
+            },
+            {
+                "number" : 38,
+                "country" : "Germany",
+                "name" : "Patrick Finger"
+            },
+            {
+                "number" : 42,
+                "country" : "Bosnia and Herzegovina",
+                "name" : "Marijan Ćavar"
+            }
+        ]
+    },
+    
+    
+    {
+        "ClubName": "FC Augsburg",
+        "Ground" : "WWK Arenak",
+        "HeadCoach" : "Martin Schmidt",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Switzerland",
+                "name" : "Stephan Lichtsteiner"
+            },
+            {
+                "number" : 3,
+                "country" : "Denmark",
+                "name" : "Mads Valentin"
+            },
+            {
+                "number" : 5,
+                "country" : "Czech Republic",
+                "name" : "Marek Suchý"
+            },
+            {
+                "number" : 6,
+                "country" : "Netherlands",
+                "name" : "Jeffrey Gouweleeuw"
+            },
+            {
+                "number" : 15,
+                "country" : "Croatia",
+                "name" : "Jozo Stanić"
+            },
+            {
+                "number" : 18,
+                "country" : "Croatia",
+                "name" : "Tin Jedvaj"
+            },
+            {
+                "number" : 19,
+                "country" : "Germany",
+                "name" : "Felix Uduokhai"
+            },
+            {
+                "number" : 22,
+                "country" : "Brazil",
+                "name" : "Iago"
+            },
+            {
+                "number" : 26,
+                "country" : "Germany",
+                "name" : "Simon Asta"
+            },
+            {
+                "number" : 31,
+                "country" : "Germany",
+                "name" : "Philipp Max"
+            },
+            {
+                "number" : 32,
+                "country" : "Germany",
+                "name" : "Raphael Framberger"
+            },
+            {
+                "number" : 36,
+                "country" : "England",
+                "name" : "Reece Oxford"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Germany",
+                "name" : "Florian Niederlechner"
+            },
+            {
+                "number" : 9,
+                "country" : "Venezuela",
+                "name" : "Sergio Córdova"
+            },
+            {
+                "number" : 17,
+                "country" : "Nigeria",
+                "name" : "Noah Sarenren Bazee"
+            },
+            {
+                "number" : 20,
+                "country" : "Germany",
+                "name" : "Julian Schieber"
+            },
+            {
+                "number" : 27,
+                "country" : "Iceland",
+                "name" : "Alfreð Finnbogason"
+            },
+            {
+                "number" : 35,
+                "country" : "South Korea",
+                "name" : "Cheon Seong-hoon"
+            },
+            {
+                "number" : 37,
+                "country" : "Germany",
+                "name" : "Maurice Malone"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Andreas Luthe"
+            },
+            {
+                "number" : 13,
+                "country" : "Germany",
+                "name" : "Fabian Giefer"
+            },
+            {
+                "number" : 21,
+                "country" : "Czech Republic",
+                "name" : "Tomáš Koubek"
+            },
+            {
+                "number" : 39,
+                "country" : "Germany",
+                "name" : "Benjamin Leneis"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 4,
+                "country" : "Germany",
+                "name" : "Felix Götze"
+            },
+            {
+                "number" : 8,
+                "country" : "Germany",
+                "name" : "Rani Khedira"
+            },
+            {
+                "number" : 10,
+                "country" : "Germany",
+                "name" : "Daniel Baier"
+            },
+            {
+                "number" : 14,
+                "country" : "Czech Republic",
+                "name" : "Jan Morávek"
+            },
+            {
+                "number" : 16,
+                "country" : "Switzerland",
+                "name" : "Ruben Vargas"
+            },
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Marco Richter"
+            },
+            {
+                "number" : 24,
+                "country" : "Finland",
+                "name" : "Fredrik Jensen"
+            },
+            {
+                "number" : 25,
+                "country" : "Ecuador",
+                "name" : "Carlos Gruezo"
+            },
+            {
+                "number" : 28,
+                "country" : "Germany",
+                "name" : "André Hahn"
+            },
+            {
+                "number" : 29,
+                "country" : "Germany",
+                "name" : "Eduard Löwen"
+            },
+            {
+                "number" : 34,
+                "country" : "Austria",
+                "name" : "Georg Teigl"
+            }
+        ]
+    },
+    
+    
+    {
+        "ClubName": "FC Bayern München",
+        "Ground" : "Allianz Arena",
+        "HeadCoach" : "Hans-Dieter Flick",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Álvaro Odriozola"
+            },
+            {
+                "number" : 4,
+                "country" : "Germany",
+                "name" : "Niklas Süle"
+            },
+            {
+                "number" : 5,
+                "country" : "France",
+                "name" : "Benjamin Pavard"
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Javi Martínez"
+            },
+            {
+                "number" : 17,
+                "country" : "Germany",
+                "name" : "Jérôme Boateng"
+            },
+            {
+                "number" : 21,
+                "country" : "France",
+                "name" : "Lucas Hernandez"
+            },
+            {
+                "number" : 27,
+                "country" : "Austria",
+                "name" : "David Alaba"
+            },
+            {
+                "number" : 32,
+                "country" : "Germany",
+                "name" : "Joshua Kimmich"
+            },
+            {
+                "number" : 33,
+                "country" : "Germany",
+                "name" : "Lars Lukas Mai"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Poland",
+                "name" : "Robert Lewandowski"
+            },
+            {
+                "number" : 14,
+                "country" : "Croatia",
+                "name" : "Ivan Perišićs"
+            },
+            {
+                "number" : 15,
+                "country" : "Germany",
+                "name" : "Jann-Fiete Arp"
+            },
+            {
+                "number" : 25,
+                "country" : "Germany",
+                "name" : "Thomas Müller"
+            },
+            {
+                "number" : 35,
+                "country" : "Netherlands",
+                "name" : "Joshua Zirkzee"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Manuel Neuer"
+            },
+            {
+                "number" : 26,
+                "country" : "Germany",
+                "name" : "Sven Ulreich"
+            },
+            {
+                "number" : 36,
+                "country" : "Germany",
+                "name" : "Christian Früchtl"
+            },
+            {
+                "number" : 39,
+                "country" : "Germany",
+                "name" : "Ron-Thorben Hoffmann"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Thiago"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Philippe Coutinho"
+            },
+            {
+                "number" : 11,
+                "country" : "France",
+                "name" : "Mickaël Cuisance"
+            },
+            {
+                "number" : 18,
+                "country" : "Germany",
+                "name" : "Leon Goretzka"
+            },
+            {
+                "number" : 19,
+                "country" : "Canada",
+                "name" : "Alphonso Davies"
+            },
+            {
+                "number" : 22,
+                "country" : "Germany",
+                "name" : "Serge Gnabry"
+            },
+            {
+                "number" : 24,
+                "country" : "France",
+                "name" : "Corentin Tolisso"
+            },
+            {
+                "number" : 29,
+                "country" : "France",
+                "name" : "Kingsley Coman"
+            }
+            
+        ]
+    },
+    
+    
+    {
+        "ClubName": "FC Köln",
+        "Ground" : "Müngersdorfer Stadion",
+        "HeadCoach" : "Markus Gisdol",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Germany",
+                "name" : "Benno Schmitz"
+            },
+            {
+                "number" : 3,
+                "country" : "Germany",
+                "name" : "Lasse Sobiech"
+            },
+            {
+                "number" : 5,
+                "country" : "Germany",
+                "name" : "Rafael Czichos"
+            },
+            {
+                "number" : 14,
+                "country" : "Germany",
+                "name" : "Jonas Hector"
+            },
+            {
+                "number" : 19,
+                "country" : "Netherlands",
+                "name" : "Kingsley Ehizibue"
+            },
+            {
+                "number" : 22,
+                "country" : "Spain",
+                "name" : "Jorge Meré"
+            },
+            {
+                "number" : 33,
+                "country" : "Belgium",
+                "name" : "Sebastiaan Bornauw"
+            },
+            {
+                "number" : 34,
+                "country" : "Germany",
+                "name" : "Noah Katterbach"
+            },
+            {
+                "number" : 35,
+                "country" : "Germany",
+                "name" : "Matthias Bader"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Germany",
+                "name" : "Simon Terodde"
+            },
+            {
+                "number" : 11,
+                "country" : "Germany",
+                "name" : "Kingsley Schindler"
+            },
+            {
+                "number" : 15,
+                "country" : "Colombia",
+                "name" : "Jhon Córdoba"
+            },
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Mark Uth"
+            },
+            {
+                "number" : 27,
+                "country" : "France",
+                "name" : "Anthony Modeste"
+            },
+            {
+                "number" : 29,
+                "country" : "Germany",
+                "name" : "Jan Thielmann"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Timo Horn"
+            },
+            {
+                "number" : 18,
+                "country" : "Germany",
+                "name" : "Thomas Kessler"
+            },
+            {
+                "number" : 31,
+                "country" : "United_States",
+                "name" : "Brady Scott"
+            },
+            {
+                "number" : 32,
+                "country" : "Germany",
+                "name" : "Julian Krahl"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Germany",
+                "name" : "Marco Höger"
+            },
+            {
+                "number" : 7,
+                "country" : "Germany",
+                "name" : "Marcel Risse"
+            },
+            {
+                "number" : 8,
+                "country" : "Belgium",
+                "name" : "Birger Verstraete"
+            },
+            {
+                "number" : 17,
+                "country" : "Germany",
+                "name" : "Christian Clemens"
+            },
+            {
+                "number" : 20,
+                "country" : "Germany",
+                "name" : "Elvis Rexhbeçaj"
+            },
+            {
+                "number" : 21,
+                "country" : "France",
+                "name" : "Vincent Koziellon"
+            },
+            {
+                "number" : 24,
+                "country" : "Dominick Drexler",
+                "name" : "László Bénes"
+            },
+            {
+                "number" : 28,
+                "country" : "Tunisia",
+                "name" : "Ellyes Skhiri"
+            },
+            {
+                "number" : 30,
+                "country" : "Austria",
+                "name" : "Florian Kainz"
+            },
+            {
+                "number" : 36,
+                "country" : "England",
+                "name" : "Niklas Hauptmann"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName": "FC Schalke 04",
+        "Ground" : "Veltins-Arena",
+        "HeadCoach" : "David Wagner",
+        "Defender" : [
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Juan Miranda"
+            },
+            {
+                "number" : 4,
+                "country" : "Turkey",
+                "name" : "Ozan Kabak"
+            },
+            {
+                "number" : 5,
+                "country" : "Serbia",
+                "name" : "Matija Nastasić"
+            },
+            {
+                "number" : 17,
+                "country" : "France",
+                "name" : "Benjamin Stambouli"
+            },
+            {
+                "number" : 20,
+                "country" : "England",
+                "name" : "Jonjoe Kenny"
+            },
+            {
+                "number" : 21,
+                "country" : "France",
+                "name" : "Jean-Clair Todibo"
+            },
+            {
+                "number" : 24,
+                "country" : "Germany",
+                "name" : "Bastian Oczipka"
+            },
+            {
+                "number" : 26,
+                "country" : "Senegal",
+                "name" : "Salif Sané"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Belgium",
+                "name" : "Benito Raman"
+            },
+            {
+                "number" : 11,
+                "country" : "Austria",
+                "name" : "Michael Gregoritsch"
+            },
+            {
+                "number" : 14,
+                "country" : "Wales",
+                "name" : "Rabbi Matondo"
+            },
+            {
+                "number" : 15,
+                "country" : "Turkey",
+                "name" : "Ahmed Kutucu"
+            },
+            {
+                "number" : 19,
+                "country" : "Austria",
+                "name" : "Guido Burgstaller"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Markus Schubert"
+            },
+            {
+                "number" : 34,
+                "country" : "Austria",
+                "name" : "Michael Langer"
+            },
+            {
+                "number" : 35,
+                "country" : "Germany",
+                "name" : "Alexander Nübel"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 2,
+                "country" : "United_States",
+                "name" : "Weston McKennie"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Omar Mascarellr"
+            },
+            {
+                "number" : 8,
+                "country" : "Germany",
+                "name" : "Suat Serdar"
+            },
+            {
+                "number" : 16,
+                "country" : "Morocco",
+                "name" : "Nassim Boujellab"
+            },
+            {
+                "number" : 18,
+                "country" : "Germany",
+                "name" : "Daniel Caligiuri"
+            },
+            {
+                "number" : 25,
+                "country" : "Morocco",
+                "name" : "Amine Harit"
+            },
+            {
+                "number" : 28,
+                "country" : "Austria",
+                "name" : "Alessandro Schöpf"
+            },
+            {
+                "number" : 37,
+                "country" : "Germany",
+                "name" : "Levent Mercan"
+            }
+        ]
+    },
+    
+    
+    {
+        "ClubName": "FC Union Berlin",
+        "Ground" : "Stadion An der Alten Försterei",
+        "HeadCoach" : "Urs Fischer",
+        "Defender" : [
+            {
+                "number" : 3,
+                "country" : "Croatia",
+                "name" : "Neven Subotić"
+            },
+            {
+                "number" : 5,
+                "country" : "Germany",
+                "name" : "Marvin Friedrich"
+            },
+            {
+                "number" : 14,
+                "country" : "Germany",
+                "name" : "Ken Reichel"
+            },
+            {
+                "number" : 19,
+                "country" : "Germany",
+                "name" : "Florian Hübner"
+            },
+            {
+                "number" : 25,
+                "country" : "Germany",
+                "name" : "Christopher Lenz"
+            },
+            {
+                "number" : 28,
+                "country" : "Austria",
+                "name" : "Christopher Trimmel"
+            },
+            {
+                "number" : 29,
+                "country" : "Germany",
+                "name" : "Michael Parensen"
+            },
+            {
+                "number" : 31,
+                "country" : "Germany",
+                "name" : "Keven Schlotterbeck"
+            },
+            {
+                "number" : 33,
+                "country" : "United_States",
+                "name" : "Lennard Maloney"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Germany",
+                "name" : "Sebastian Polter"
+            },
+            {
+                "number" : 10,
+                "country" : "Sweden",
+                "name" : "Sebastian Andersson"
+            },
+            {
+                "number" : 11,
+                "country" : "Nigeria",
+                "name" : "Anthony Ujah"
+            },
+            {
+                "number" : 15,
+                "country" : "Germany",
+                "name" : "Marius Bülter"
+            },
+            {
+                "number" : 16,
+                "country" : "Germany",
+                "name" : "Laurenz Dehl"
+            },
+            {
+                "number" : 17,
+                "country" : "Austria",
+                "name" : "Florian Flecker"
+            },
+            {
+                "number" : 20,
+                "country" : "Nigeria",
+                "name" : "Suleiman Abdullahi"
+            },
+            {
+                "number" : 27,
+                "country" : "Netherlands",
+                "name" : "Sheraldo Becker"
+            },
+            {
+                "number" : 32,
+                "country" : "Denmark",
+                "name" : "Marcus Ingvartsen"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Poland",
+                "name" : "Rafał Gikiewicz"
+            },
+            {
+                "number" : 12,
+                "country" : "Denmark",
+                "name" : "Jakob Busk"
+            },
+            {
+                "number" : 35,
+                "country" : "Germany",
+                "name" : "Moritz Nicolas"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Norway",
+                "name" : "Julian Ryerson"
+            },
+            {
+                "number" : 7,
+                "country" : "Germany",
+                "name" : "Akaki Gogia"
+            },
+            {
+                "number" : 8,
+                "country" : "Germany",
+                "name" : "Joshua Mees"
+            },
+            {
+                "number" : 18,
+                "country" : "Turkey",
+                "name" : "Yunus Mallı"
+            },
+            {
+                "number" : 21,
+                "country" : "Germany",
+                "name" : "Grischa Prömel"
+            },
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Felix Kroos"
+            },
+            {
+                "number" : 24,
+                "country" : "Germany",
+                "name" : "Manuel Schmiedebach"
+            },
+            {
+                "number" : 26,
+                "country" : "Germany",
+                "name" : "Julius Kade"
+            },
+            {
+                "number" : 30,
+                "country" : "Germany",
+                "name" : "Robert Andrich"
+            },
+            {
+                "number" : 34,
+                "country" : "Germany",
+                "name" : "Christian Gentner"
+            },
+            {
+                "number" : 40,
+                "country" : "Germany",
+                "name" : "Maurice Opfermann"
+            }
+        ]
+    },
+    
+    
+    {
+        "ClubName":  "FSV Mainz 05",
+        "Ground" : "Opel Arena",
+        "HeadCoach" : "Achim Beierlorzer",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "France",
+                "name" : "Ronaël Pierre-Gabriel"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Aarón Martín"
+            },
+            {
+                "number" : 4,
+                "country" : "Netherlands",
+                "name" : "Jerry St. Juste"
+            },
+            {
+                "number" : 16,
+                "country" : "Germany",
+                "name" : "Stefan Bell"
+            },
+            {
+                "number" : 17,
+                "country" : "Germany",
+                "name" : "Jonathan Meier"
+            },
+            {
+                "number" : 18,
+                "country" : "Germany",
+                "name" : "Daniel Brosinski"
+            },
+            {
+                "number" : 19,
+                "country" : "France",
+                "name" : "Moussa Niakhaté"
+            },
+            {
+                "number" : 23,
+                "country" : "Austria",
+                "name" : "Phillipp Mwene"
+            },
+            {
+                "number" : 31,
+                "country" : "Turkey",
+                "name" : "Ahmet Gürleyen"
+            },
+            {
+                "number" : 42,
+                "country" : "Germany",
+                "name" : "Alexander Hack"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Sweden",
+                "name" : "Robin Quaison"
+            },
+            {
+                "number" : 9,
+                "country" : "France",
+                "name" : "Jean-Philippe Mateta"
+            },
+            {
+                "number" : 11,
+                "country" : "South Korea",
+                "name" : "Ji Dong-won"
+            },
+            {
+                "number" : 21,
+                "country" : "Austria",
+                "name" : "Karim Onisiwo"
+            },
+            {
+                "number" : 22,
+                "country" : "Nigeria",
+                "name" : "Taiwo Awoniyi"
+            },
+            {
+                "number" : 28,
+                "country" : "Hungary",
+                "name" : "Ádám Szalai"
+            },
+            {
+                "number" : 29,
+                "country" : "Germany",
+                "name" : "Jonathan Burkardt"
+            },
+            {
+                "number" : 30,
+                "country" : "Germany",
+                "name" : "Cyrill Akono"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Florian Müller"
+            },
+            {
+                "number" : 27,
+                "country" : "Germany",
+                "name" : "Robin Zentner"
+            },
+            {
+                "number" : 33,
+                "country" : "Israel",
+                "name" : "Omer Hanin"
+            },
+            {
+                "number" : 37,
+                "country" : "Germany",
+                "name" : "Finn Dahmen"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Netherlands",
+                "name" : "Jean-Paul Boëtius"
+            },
+            {
+                "number" : 6,
+                "country" : "Germany",
+                "name" : "Danny Latza"
+            },
+            {
+                "number" : 8,
+                "country" : "Germany",
+                "name" : "Levin Öztunalı"
+            },
+            {
+                "number" : 10,
+                "country" : "Germany",
+                "name" : "Alexandru Maxim"
+            },
+            {
+                "number" : 14,
+                "country" : "Germany",
+                "name" : "Pierre Kunde"
+            },
+            {
+                "number" : 15,
+                "country" : "Germany",
+                "name" : "Niklas Tauer"
+            },
+            {
+                "number" : 20,
+                "country" : "Switzerland",
+                "name" : "Edimilson Fernandes"
+            },
+            {
+                "number" : 24,
+                "country" : "Germany",
+                "name" : "Merveille Papela"
+            },
+            {
+                "number" : 34,
+                "country" : "Germany",
+                "name" : "Bote Baku"
+            },
+            {
+                "number" : 35,
+                "country" : "Luxembourg",
+                "name" : "Leandro Barreiro"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName":  "Fortuna Düsseldorf",
+        "Ground" : "Merkur Spiel-Arena",
+        "HeadCoach" : "Friedhelm Funkel",
+        "Defender" : [
+            {
+                "number" : 3,
+                "country" : "Germany",
+                "name" : "André Hoffmann"
+            },
+            {
+                "number" : 4,
+                "country" : "Ghana",
+                "name" : "Kasim Nuhu"
+            },
+            {
+                "number" : 5,
+                "country" : "Turkey",
+                "name" : "Kaan Ayhan"
+            },
+            {
+                "number" : 13,
+                "country" : "Poland",
+                "name" : "Adam Bodzek"
+            },
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Niko Gießelmann"
+            },
+            {
+                "number" : 25,
+                "country" : "Germany",
+                "name" : "Matthias Zimmermann"
+            },
+            {
+                "number" : 26,
+                "country" : "Germany",
+                "name" : "Diego Contento"
+            },
+            {
+                "number" : 29,
+                "country" : "Austria",
+                "name" : "Markus Suttnerr"
+            },
+            {
+                "number" : 32,
+                "country" : "Germany",
+                "name" : "Robin Bormuth"
+            },
+            {
+                "number" : 39,
+                "country" : "Germany",
+                "name" : "Jean Zimmer"
+            },
+            {
+                "number" : 40,
+                "country" : "Germany",
+                "name" : "Johannes Bühler"
+            }
+            
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Poland",
+                "name" : "Dawid Kownackim"
+            },
+            {
+                "number" : 20,
+                "country" : "Germany",
+                "name" : "Steven Skrzybski"
+            },
+            {
+                "number" : 27,
+                "country" : "Ghana",
+                "name" : "Opoku Ampomah"
+            },
+            {
+                "number" : 28,
+                "country" : "Germany",
+                "name" : "Rouwen Hennings"
+            },
+            {
+                "number" : 37,
+                "country" : "Ghana",
+                "name" : "Bernard Tekpetey"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Michael Rensing"
+            },
+            {
+                "number" : 24,
+                "country" : "United_States",
+                "name" : "Zack Steffen"
+            },
+            {
+                "number" : 30,
+                "country" : "Germany",
+                "name" : "Raphael Wolf"
+            },
+            {
+                "number" : 33,
+                "country" : "Germany",
+                "name" : "Florian Kastenmeier"
+            },
+            {
+                "number" : 38,
+                "country" : "Germany",
+                "name" : "Tim Wiesner"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "United_States",
+                "name" : "Alfredo Morales"
+            },
+            {
+                "number" : 7,
+                "country" : "Germany",
+                "name" : "Oliver Fink"
+            },
+            {
+                "number" : 8,
+                "country" : "Germany",
+                "name" : "Aymen Barkok"
+            },
+            {
+                "number" : 11,
+                "country" : "Turkey",
+                "name" : "Kenan Karaman"
+            },
+            {
+                "number" : 14,
+                "country" : "Ghana",
+                "name" : "Kelvin Ofori"
+            },
+            {
+                "number" : 15,
+                "country" : "Germany",
+                "name" : "Erik Thommy"
+            },
+            {
+                "number" : 18,
+                "country" : "Germany",
+                "name" : "Thomas Pledl"
+            },
+            {
+                "number" : 22,
+                "country" : "Austria",
+                "name" : "Kevin Stöger"
+            },
+            {
+                "number" : 31,
+                "country" : "Germany",
+                "name" : "Marcel Sobottka"
+            },
+            {
+                "number" : 34,
+                "country" : "England",
+                "name" : "Lewis Bakers"
+            }
+        ]
+    },
+    
+    {
+        "ClubName":  "Hertha Berlin",
+        "Ground" : "Olympiastadion",
+        "HeadCoach" : "Jürgen Klinsmann",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Slovakia",
+                "name" : "Peter Pekarík"
+            },
+            {
+                "number" : 4,
+                "country" : "Netherlands",
+                "name" : "Karim Rekik"
+            },
+            {
+                "number" : 5,
+                "country" : "Germany",
+                "name" : "Niklas Stark"
+            },
+            {
+                "number" : 13,
+                "country" : "Germany",
+                "name" : "Lukas Klünter"
+            },
+            {
+                "number" : 17,
+                "country" : "Germany",
+                "name" : "Maximilian Mittelstädt"
+            },
+            {
+                "number" : 20,
+                "country" : "Belgium",
+                "name" : "Dedryck Boyata"
+            },
+            {
+                "number" : 21,
+                "country" : "Germany",
+                "name" : "Marvin Plattenhardt"
+            },
+            {
+                "number" : 25,
+                "country" : "Germany",
+                "name" : "Jordan Torunarigha"
+            },
+            {
+                "number" : 29,
+                "country" : "Germany",
+                "name" : "Florian Baak"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Germany",
+                "name" : "Alexander Esswein"
+            },
+            {
+                "number" : 8,
+                "country" : "Ivory Coast",
+                "name" : "Salomon Kalou"
+            },
+            {
+                "number" : 14,
+                "country" : "Germany",
+                "name" : "Pascal Köpke"
+            },
+            {
+                "number" : 19,
+                "country" : "Bosnia and Herzegovina",
+                "name" : "Vedad Ibišević"
+            },
+            {
+                "number" : 24,
+                "country" : "Germany",
+                "name" : "Palkó Dárdai"
+            },
+            {
+                "number" : 27,
+                "country" : "Germany",
+                "name" : "Davie Selke"
+            },
+            {
+                "number" : 28,
+                "country" : "Belgium",
+                "name" : "Dodi Lukebakio"
+            },
+            {
+                "number" : 30,
+                "country" : "Germany",
+                "name" : "Marius Wolf"
+            },
+            {
+                "number" : 32,
+                "country" : "Germany",
+                "name" : "Dennis Jastrzembski"
+            },
+            {
+                "number" : 33,
+                "country" : "Netherlands",
+                "name" : "Daishawn Redan"
+            },
+            {
+                "number" : 36,
+                "country" : "Turkey",
+                "name" : "Muhammed Kiprit"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Thomas Kraft"
+            },
+            {
+                "number" : 12,
+                "country" : "Germany",
+                "name" : "Dennis Smarsch"
+            },
+            {
+                "number" : 22,
+                "country" : "Norway",
+                "name" : "Rune Jarstein"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 3,
+                "country" : "Norway",
+                "name" : "Per Ciljan Skjelbred"
+            },
+            {
+                "number" : 6,
+                "country" : "Czech_Republic",
+                "name" : "Vladimír Darida"
+            },
+            {
+                "number" : 11,
+                "country" : "Ausralia",
+                "name" : "Mathew Leckie"
+            },
+            {
+                "number" : 15,
+                "country" : "Serbia",
+                "name" : "Marko Grujić"
+            },
+            {
+                "number" : 16,
+                "country" : "Netherlands",
+                "name" : "Javairô Dilrosun"
+            },
+            {
+                "number" : 18,
+                "country" : "Argentina",
+                "name" : "Santiago Ascacíbar"
+            },
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Arne Maier"
+            },
+            {
+                "number" : 39,
+                "country" : "Germany",
+                "name" : "Julian Albrecht"
+            }
+        ]
+    },
+    
+    {
+        "ClubName":  "RB Leipzig",
+        "Ground" : "Red Bull Arena",
+        "HeadCoach" : "Julian Nagelsmann",
+        "Defender" : [
+            {
+                "number" : 4,
+                "country" : "Hungary",
+                "name" : "Willi Orban"
+            },
+            {
+                "number" : 5,
+                "country" : "France",
+                "name" : "Dayot Upamecano"
+            },
+            {
+                "number" : 6,
+                "country" : "France",
+                "name" : "Ibrahima Konaté"
+            },
+            {
+                "number" : 16,
+                "country" : "Germany",
+                "name" : "Lukas Klostermann"
+            },
+            {
+                "number" : 22,
+                "country" : "France",
+                "name" : "Nordi Mukiele"
+            },
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Marcel Halstenberg"
+            },
+            {
+                "number" : 26,
+                "country" : "Wales",
+                "name" : "Ethan Ampadu"
+            },
+            {
+                "number" : 27,
+                "country" : "Austria",
+                "name" : "Konrad Laimer"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Austria",
+                "name" : "Marcel Sabitzer"
+            },
+            {
+                "number" : 9,
+                "country" : "Denmark",
+                "name" : "Yussuf Poulsen"
+            },
+            {
+                "number" : 11,
+                "country" : "Germany",
+                "name" : "Timo Werner"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Abel Ruiz"
+            },
+            {
+                "number" : 17,
+                "country" : "England",
+                "name" : "Ademola Lookman"
+            },
+            {
+                "number" : 20,
+                "country" : "Brazil",
+                "name" : "Matheus Cunha"
+            },
+            {
+                "number" : 21,
+                "country" : "Czech_Republic",
+                "name" : "Patrik Schick"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Hungary",
+                "name" : "Péter Gulácsi"
+            },
+            {
+                "number" : 28,
+                "country" : "Switzerland",
+                "name" : "Yvon Mvogo"
+            },
+            {
+                "number" : 32,
+                "country" : "Germany",
+                "name" : "Tim Schreiber"
+            },
+            {
+                "number" : 33,
+                "country" : "Germany",
+                "name" : "Philipp Tschauner"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 8,
+                "country" : "Mali",
+                "name" : "Amadou Haidara"
+            },
+            {
+                "number" : 10,
+                "country" : "Sweden",
+                "name" : "Emil Forsberg"
+            },
+            {
+                "number" : 13,
+                "country" : "Austria",
+                "name" : "Stefan Ilsanker"
+            },
+            {
+                "number" : 14,
+                "country" : "United_States",
+                "name" : "Tyler Adams"
+            },
+            {
+                "number" : 18,
+                "country" : "France",
+                "name" : "Christopher Nkunku"
+            },
+            {
+                "number" : 19,
+                "country" : "Austria",
+                "name" : "Hannes Wolf"
+            },
+            {
+                "number" : 44,
+                "country" : "Slovenia",
+                "name" : "Kevin Kampl"
+            },
+            {
+                "number" : 53,
+                "country" : "Germany",
+                "name" : "Tom Krauß"
+            }
+        ]
+    },
+    
+    
+    {
+        "ClubName":  "SC Freiburg",
+        "Ground" : "Schwarzwald-Stadion",
+        "HeadCoach" :  "Christian Streich",
+        "Defender" : [
+            {
+                "number" : 3,
+                "country" : "Austria",
+                "name" : "Philipp Lienhart"
+            },
+            {
+                "number" : 4,
+                "country" : "Germany",
+                "name" : "Nico Schlotterbeck"
+            },
+            {
+                "number" : 5,
+                "country" : "Germany",
+                "name" : "Manuel Gulde"
+            },
+            {
+                "number" : 7,
+                "country" : "France",
+                "name" : "Jonathan Schmid"
+            },
+            {
+                "number" : 17,
+                "country" : "Germany",
+                "name" : "Lukas Kübler"
+            },
+            {
+                "number" : 23,
+                "country" : "Germany",
+                "name" : "Dominique Heintz"
+            },
+            {
+                "number" : 24,
+                "country" : "Germany",
+                "name" : "Gian-Luca Itter"
+            },
+            {
+                "number" : 25,
+                "country" : "Germany",
+                "name" : "Robin Koch"
+            },
+            {
+                "number" : 30,
+                "country" : "Germany",
+                "name" : "Christian Günter"
+            },
+            {
+                "number" : 39,
+                "country" : "Germany",
+                "name" : "Fabian Rüdlin"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Germany",
+                "name" : "Lucas Höler"
+            },
+            {
+                "number" : 11,
+                "country" : "Germany",
+                "name" : "Luca Waldschmidt"
+            },
+            {
+                "number" : 18,
+                "country" : "Germany",
+                "name" : "Nils Petersen"
+            },
+            {
+                "number" : 29,
+                "country" : "Germany",
+                "name" : "Jeong Woo-yeong"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Alexander Schwolow"
+            },
+            {
+                "number" : 21,
+                "country" : "Netherlands",
+                "name" : "Mark Flekken"
+            },
+            {
+                "number" : 31,
+                "country" : "Germany",
+                "name" : "Niclas Thiede"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Albania",
+                "name" : "Amir Abrashi"
+            },
+            {
+                "number" : 8,
+                "country" : "Germany",
+                "name" : "Mike Frantz"
+            },
+            {
+                "number" : 16,
+                "country" : "France",
+                "name" : "Yoric Ravet"
+            },
+            {
+                "number" : 19,
+                "country" : "Germany",
+                "name" : "Janik Haberer"
+            },
+            {
+                "number" : 21,
+                "country" : "Australia",
+                "name" : "Brandon Borrello"
+            },
+            {
+                "number" : 22,
+                "country" : "Hungary",
+                "name" : "Roland Sallai"
+            },
+            {
+                "number" : 27,
+                "country" : "Germany",
+                "name" : "Nicolas Höfler"
+            },
+            {
+                "number" : 28,
+                "country" : "South Korea",
+                "name" : "Kwon Chang-hoon"
+            },
+            {
+                "number" : 32,
+                "country" : "Italy",
+                "name" : "Vincenzo Grifo"
+            },
+            {
+                "number" : 34,
+                "country" : "Germany",
+                "name" : "Lino Tempelmann"
+            },
+            {
+                "number" : 38,
+                "country" : "Germany",
+                "name" : "Florian Kath"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName":  "SC Paderborn 07",
+        "Ground" : "Benteler-Arena",
+        "HeadCoach" :  "Steffen Baumgart",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Germany",
+                "name" : "Uwe Hünemeier"
+            },
+            {
+                "number" : 4,
+                "country" : "Germany",
+                "name" : "Jan-Luca Rumpf"
+            },
+            {
+                "number" : 5,
+                "country" : "Germany",
+                "name" : "Christian Strohdiek"
+            },
+            {
+                "number" : 13,
+                "country" : "Germany",
+                "name" : "Sebastian Schonlau"
+            },
+            {
+                "number" : 15,
+                "country" : "Germany",
+                "name" : "Luca Kilian"
+            },
+            {
+                "number" : 20,
+                "country" : "Luxembourg",
+                "name" : "Laurent Jans"
+            },
+            {
+                "number" : 38,
+                "country" : "Tunisia",
+                "name" : "Mohamed Dräger"
+            },
+            {
+                "number" : 29,
+                "country" : "Nigeria",
+                "name" : "Jamilu Collins"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 11,
+                "country" : "Germany",
+                "name" : "Sven Michel"
+            },
+            {
+                "number" : 18,
+                "country" : "Germany",
+                "name" : "Dennis Srbeny"
+            },
+            {
+                "number" : 27,
+                "country" : "Senegal",
+                "name" : "Babacar Guèye"
+            },
+            {
+                "number" : 30,
+                "country" : "Germany",
+                "name" : "Streli Mamba"
+            },
+            {
+                "number" : 31,
+                "country" : "Germany",
+                "name" : "Ben Zolinski"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Michael Ratajczak"
+            },
+            {
+                "number" : 17,
+                "country" : "Germany",
+                "name" : "Leopold Zingerle"
+            },
+            {
+                "number" : 21,
+                "country" : "Luxembourg",
+                "name" : "Laurent Jans"
+            },
+            {
+                "number" : 34,
+                "country" : "Germany",
+                "name" : "Leon Brüggemeier"
+            }
+            
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Iceland",
+                "name" : "Samúel Friðjónsson"
+            },
+            {
+                "number" : 7,
+                "country" : "Germany",
+                "name" : "Marlon Ritter"
+            },
+            {
+                "number" : 8,
+                "country" : "Albania",
+                "name" : "Klaus Gjasula"
+            },
+            {
+                "number" : 9,
+                "country" : "Germany",
+                "name" : "Kai Pröger"
+            },
+            {
+                "number" : 12,
+                "country" : "Croatia",
+                "name" : "Dominik Bilogrević"
+            },
+            {
+                "number" : 14,
+                "country" : "Germany",
+                "name" : "Adrian Oeynhausen"
+            },
+            {
+                "number" : 16,
+                "country" : "Germany",
+                "name" : "Johannes Dörfler"
+            },
+            {
+                "number" : 19,
+                "country" : "Germany",
+                "name" : "Abdelhamid Sabiri"
+            },
+            {
+                "number" : 22,
+                "country" : "Ghana",
+                "name" : "Christopher Antwi-Adjei"
+            },
+            {
+                "number" : 24,
+                "country" : "Bosnia and Herzegovina",
+                "name" : "Rifet Kapić"
+            },
+            {
+                "number" : 33,
+                "country" : "Germany",
+                "name" : "Marcel Hilßner"
+            },
+            {
+                "number" : 38,
+                "country" : "Germany",
+                "name" : "Gerrit Holtmann"
+            },
+            {
+                "number" : 39,
+                "country" : "Greece",
+                "name" : "Sebastian Vasiliadis"
+            }
+        ]
+    },
+    
+    {
+        "ClubName":  "SV Werder Bremen",
+        "Ground" : "Weserstadion",
+        "HeadCoach" :  "Florian Kohfeldt",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Sweden",
+                "name" : "Felix Beijmo"
+            },
+            {
+                "number" : 3,
+                "country" : "Germany",
+                "name" : "Kevin Vogt"
+            },
+            {
+                "number" : 4,
+                "country" : "Switzerland",
+                "name" : "Michael Lang"
+            },
+            {
+                "number" : 5,
+                "country" : "Sweden",
+                "name" : "Ludwig Augustinsson"
+            },
+            {
+                "number" : 13,
+                "country" : "Croatia",
+                "name" : "Miloš Veljković"
+            },
+            {
+                "number" : 15,
+                "country" : "Germany",
+                "name" : "Sebastian Langkamp"
+            },
+            {
+                "number" : 18,
+                "country" : "Finland",
+                "name" : "Niklas Moisander"
+            },
+            {
+                "number" : 21,
+                "country" : "Turkey",
+                "name" : "Ömer Toprak"
+            },
+            {
+                "number" : 23,
+                "country" : "Czech_Republic",
+                "name" : "Theodor Gebre Selassie"
+            },
+            {
+                "number" : 32,
+                "country" : "Austria",
+                "name" : "Marco Friedl"
+            },
+            {
+                "number" : 36,
+                "country" : "Germany",
+                "name" : "Christian Groß"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 8,
+                "country" : "Japan",
+                "name" : "Yuya Osako"
+            },
+            {
+                "number" : 11,
+                "country" : "Germany",
+                "name" : "Niclas Füllkrug"
+            },
+            {
+                "number" : 14,
+                "country" : "Peru",
+                "name" : "Claudio Pizarro"
+            },
+            {
+                "number" : 19,
+                "country" : "United_States",
+                "name" : "Josh Sargent"
+            },
+            {
+                "number" : 24,
+                "country" : "Germany",
+                "name" : "Johannes Eggestein"
+            },
+            {
+                "number" : 29,
+                "country" : "Germany",
+                "name" : "Luc Ihorst"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Czech_Republic",
+                "name" : "Jiří Pavlenka"
+            },
+            {
+                "number" : 27,
+                "country" : "Greece",
+                "name" : "Stefanos Kapino"
+            },
+            {
+                "number" : 40,
+                "country" : "Germany",
+                "name" : "Luca Plogmann"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Germany",
+                "name" : "Kevin Möhwald"
+            },
+            {
+                "number" : 7,
+                "country" : "Kosovo",
+                "name" : "Milot Rashica"
+            },
+            {
+                "number" : 10,
+                "country" : "Germany",
+                "name" : "Milot Rashica"
+            },
+            {
+                "number" : 17,
+                "country" : "Turkey",
+                "name" : "Nuri Şahin"
+            },
+            {
+                "number" : 22,
+                "country" : "Germany",
+                "name" : "Fin Bartels"
+            },
+            {
+                "number" : 26,
+                "country" : "Italy",
+                "name" : "Simon Straudi"
+            },
+            {
+                "number" : 28,
+                "country" : "Bulgaria",
+                "name" : "Iliya Gruev"
+            },
+            {
+                "number" : 30,
+                "country" : "Netherlands",
+                "name" : "Davy Klaassen"
+            },
+            {
+                "number" : 31,
+                "country" : "Germany",
+                "name" : "David Philipp"
+            },
+            {
+                "number" : 35,
+                "country" : "Germany",
+                "name" : "Maximilian Eggestein"
+            },
+            {
+                "number" : 44,
+                "country" : "Germany",
+                "name" : "Philipp Bargfrede"
+            }
+        ]
+    },
+ 
+ 
+    {
+        "ClubName":  "TSG 1899 Hoffenheim",
+        "Ground" : "PreZero Arena",
+        "HeadCoach" :  "Alfred Schreuder",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Netherlands",
+                "name" : "Joshua Brenet"
+            },
+            {
+                "number" : 3,
+                "country" : "Czech_Republic",
+                "name" : "Pavel Kadeřábekt"
+            },
+            {
+                "number" : 4,
+                "country" : "Bosnia and Herzegovina",
+                "name" : "Ermin Bičakčić"
+            },
+            {
+                "number" : 5,
+                "country" : "Greece",
+                "name" : "Kostas Stafylidis"
+            },
+            {
+                "number" : 21,
+                "country" : "Germany",
+                "name" : "Benjamin Hübner"
+            },
+            {
+                "number" : 25,
+                "country" : "Germany",
+                "name" : "Kevin Akpoguma"
+            },
+            {
+                "number" : 31,
+                "country" : "Brazil",
+                "name" : "Lucas Ribeiro"
+            },
+            {
+                "number" : 38,
+                "country" : "Austria",
+                "name" : "Stefan Posch"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Togo",
+                "name" : "Ihlas Bebou"
+            },
+            {
+                "number" : 10,
+                "country" : "Israel",
+                "name" : "Moanes Dabbur"
+            },
+            {
+                "number" : 19,
+                "country" : "Algeria",
+                "name" : "Ishak Belfodil"
+            },
+            {
+                "number" : 23,
+                "country" : "Armenia",
+                "name" : "Sargis Adamyan"
+            },
+            {
+                "number" : 27,
+                "country" : "Croatia",
+                "name" : "Andrej Kramarić"
+            },
+            {
+                "number" : 29,
+                "country" : "Denmark",
+                "name" : "Robert Skov"
+            },
+            {
+                "number" : 30,
+                "country" : "Germany",
+                "name" : "Philipp Ochs"
+            },
+            {
+                "number" : 35,
+                "country" : "Germany",
+                "name" : "Maximilian Beier"
+            },
+            {
+                "number" : 37,
+                "country" : "Netherlands",
+                "name" : "Jürgen Locadia"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Oliver Baumann"
+            },
+            {
+                "number" : 12,
+                "country" : "Germany",
+                "name" : "Philipp Pentke"
+            },
+            {
+                "number" : 28,
+                "country" : "Germany",
+                "name" : "Michael Esser"
+            },
+            {
+                "number" : 33,
+                "country" : "Germany",
+                "name" : "Alexander Stolz"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Norway",
+                "name" : "Håvard Nordtveit"
+            },
+            {
+                "number" : 8,
+                "country" : "Germany",
+                "name" : "Dennis Geiger"
+            },
+            {
+                "number" : 11,
+                "country" : "Austria",
+                "name" : "Florian Grillitsch"
+            },
+            {
+                "number" : 14,
+                "country" : "Austria",
+                "name" : "Christoph Baumgartner"
+            },
+            {
+                "number" : 16,
+                "country" : "Germany",
+                "name" : "Sebastian Rudy"
+            },
+            {
+                "number" : 17,
+                "country" : "Switzerland",
+                "name" : "Steven Zuber"
+            },
+            {
+                "number" : 18,
+                "country" : "Mali",
+                "name" : "Diadie Samassékous"
+            },
+            {
+                "number" : 41,
+                "country" : "Israel",
+                "name" : "Ilay Elmkies"
+            }
+        ]
+    },
+    
+    
+
+    {
+        "ClubName":  "VfL Wolfsburg",
+        "Ground" : "Volkswagen Arena",
+        "HeadCoach" : "Oliver Glasner",
+        "Defender" : [
+            {
+              "number" : 2,
+              "country" : "Brazil",
+              "name" : "William"
+            },
+            {
+              "number" : 5,
+              "country" : "Netherlands",
+              "name" : "Jeffrey Bruma"
+            },
+            {
+              "number" : 6,
+              "country" : "Brazil",
+              "name" : "Paulo Otávio"
+            },
+            {
+              "number" : 15,
+              "country" : "France",
+              "name" : "Jérôme Roussillon"
+            },
+            {
+              "number" : 19,
+              "country" : "Switzerland",
+              "name" : "Kevin Mbabu"
+            },
+            {
+             "number" : 22,
+              "country" : "Croatia",
+              "name" : "Marin Pongračić"
+            },
+            {
+             "number" : 25,
+              "country" : "United_States",
+              "name" : "John Brooks"
+            },
+            {
+              "number" : 31,
+              "country" : "Germany",
+              "name" : "Robin Knoche"
+            },
+           {
+             "number" : 32,
+              "country" : "DR Congo",
+              "name" : "Marcel Tisserand"
+            }
+        ],
+        "Forward" : [
+         {
+          "number" : 9,
+           "country" : "Netherlands",
+           "name" : "Wout Weghorst"
+         },
+         {
+          "number" : 14,
+           "country" : "Switzerland",
+           "name" : "Admir Mehmedi"
+         },
+         {
+          "number" : 33,
+           "country" : "Germany",
+           "name" : "Daniel Ginczek"
+         },
+         {
+          "number" : 40,
+           "country" : "Germany",
+           "name" : "João Victor"
+         }
+        ],
+        "GoalKeeper" : [
+        {
+          "number" : 1,
+          "country" : "Germany",
+          "name" : "Koen Casteels"
+        },
+        {
+          "number" : 21,
+          "country" : "Austria",
+          "name" : "Pavao Pervan"
+        },
+        {
+          "number" : 30,
+          "country" : "Germany",
+          "name" : "Niklas Klinger"
+        },
+        {
+          "number" : 36,
+          "country" : "Germany",
+          "name" : "Phillip Menzel"
+        }
+        ],
+        "Midfielder" : [
+         {
+             "number" : 4,
+              "country" : "Spain",
+              "name" : "Ignacio Camacho"
+            },
+            {
+              "number" : 7,
+              "country" : "Croatia",
+              "name" : "Josip Brekalo"
+            },
+            {
+              "number" : 8,
+              "country" : "Switzerland",
+              "name" : "Renato Steffen"
+            },
+            {
+             "number" : 11,
+              "country" : "Germany",
+              "name" : "Felix Klaus"
+            },
+            {
+             "number" : 13,
+              "country" : "Germany",
+              "name" : "Yannick Gerhardt"
+            },
+            {
+              "number" : 23,
+              "country" : "France",
+              "name" : "Josuha Guilavogui"
+            },
+            {
+             "number" : 24,
+              "country" : "Austria",
+              "name" : "Xaver Schlager"
+            },
+            {
+              "number" : 27,
+              "country" : "Germany",
+              "name" : "Maximilian Arnold"
+            },
+            {
+             "number" : 38,
+              "country" : "Belgium",
+              "name" : "Ismail Azzaoui"
+            }
+        ]
+    }
+]
