@@ -1,0 +1,2709 @@
+[
+    {
+        "ClubName": "Alaves",
+        "Ground" : "Mendizorrotza",
+        "HeadCoach" : "Asier Garitano",
+        "Defender" : [
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Rubén Duarte"
+            },
+            {
+                "number" : 4,
+                "country" : "Brazil",
+                "name" : "Rodrigo Ely"
+            },
+            {
+                "number" : 5,
+                "country" : "Spain",
+                "name" : "Víctor Laguardia"
+            },
+            {
+                "number" : 6,
+                "country" : "Argentina",
+                "name" : "Lisandro Magallán"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "Adrián Marín"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Martín Aguirregabiria"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Ximo Navarro"
+            },
+            {
+                "number" : 27,
+                "country" : "Spain",
+                "name" : "Tachi"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Lucas Pérez"
+            },
+            {
+                "number" : 9,
+                "country" : "Spain",
+                "name" : "Joselu"
+            },
+            {
+                "number" : 11,
+                "country" : "Spain",
+                "name" : "Luis Rioja"
+            },
+            {
+                "number" : 24,
+                "country" : "Scotland",
+                "name" : "Oliver Burke"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Fernando Pacheco"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Roberto"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Tomás Pina"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Víctor Camarasa"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Burgui"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Javi Muñoz"
+            },
+            {
+                "number" : 16,
+                "country" : "Colombia",
+                "name" : "Dani Torres"
+            },
+            {
+                "number" : 18,
+                "country" : "Spain",
+                "name" : "Aleix Vidal"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Manu García"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Pere Pons"
+            },
+            {
+                "number" : 29,
+                "country" : "Spain",
+                "name" : "Borja Sainz"
+            },
+            {
+                "number" : 35,
+                "country" : "Spain",
+                "name" : "Ismael Gutiérrez"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName": "Athletic Club",
+        "Ground" : "San Mamés",
+        "HeadCoach" : "Gaizka Garitano",
+        "Defender" : [
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Unai Núñez"
+            },
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Iñigo Martínez"
+            },
+            {
+                "number" : 5,
+                "country" : "Spain",
+                "name" : "Yeray"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Iñigo Lekue"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "Yuri Berchiche"
+            },
+            {
+                "number" : 18,
+                "country" : "Spain",
+                "name" : "Óscar de Marcos"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Ander Capa"
+            },
+            {
+                "number": 24,
+                "country" : "Spain",
+                "name" : "Mikel Balenziaga"
+            },
+            {
+                "number" : 29,
+                "country" : "Spain",
+                "name" : "Daniel Vivian"
+                
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Spain",
+                "name" : "Iñaki Williams"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Aritz Aduriz"
+            },
+            {
+                "number" : 23,
+                "country" : "Bosnia and Herzegovina",
+                "name" : "Kenan Kodro"
+            },
+            {
+                "number" : 25,
+                "country" : "Spain",
+                "name" : "Asier Villalibre"
+            },
+            {
+                "number" : 30,
+                "country" : "Spain",
+                "name" : "Gorka Guruzeta"
+            }
+            
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Unai Simón"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Iago Herrerín"
+            },
+            {
+                "number" : 31,
+                "country" : "Spain",
+                "name" : "Jokin Ezkieta"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Mikel San José"
+            },
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Beñat"
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Unai López"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Iker Muniain"
+            },
+            {
+                "number" : 11,
+                "country" : "Spain",
+                "name" : "Iñigo Córdoba"
+            },
+            {
+                "number" : 12,
+                "country" : "Spain",
+                "name" : "Gaizka Larrazabal"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Dani García"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Mikel Vesga"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Ibai Gómez"
+            },
+            {
+                "number" : 22,
+                "country" : "Spain",
+                "name" : "Raúl García"
+            },
+            {
+                "number" : 34,
+                "country" : "Spain",
+                "name" : "Oihan Sancet"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName": "Atletico de Madrid",
+        "Ground" : "Wanda Metropolitano",
+        "HeadCoach" : "Diego Simeone",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Uruguay",
+                "name" : "José Giménez"
+            },
+            {
+                "number" : 4,
+                "country" : "Colombia",
+                "name" : "Santiago Arias"
+            },
+            {
+                "number" : 12,
+                "country" : "Brazil",
+                "name" : "Renan Lodi"
+            },
+            {
+                "number" : 15,
+                "country" : "Montenegro",
+                "name" : "Stefan Savić"
+            },
+            {
+                "number" : 18,
+                "country" : "Brazil",
+                "name" : "Felipe"
+            },
+            {
+                "number" : 22,
+                "country" : "Spain",
+                "name" : "Mario Hermoso"
+            },
+            {
+                "number" : 23,
+                "country" : "England",
+                "name" : "Kieran Trippier"
+            },
+            {
+                "number" : 24,
+                "country" : "Croatia",
+                "name" : "Šime Vrsaljko"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Portugal",
+                "name" : "João Félix"
+            },
+            {
+                "number" : 9,
+                "country" : "Spain",
+                "name" : "Álvaro Morata"
+            },
+            {
+                "number" : 10,
+                "country" : "Argentina",
+                "name" : "Ángel Correa"
+            },
+            {
+                "number" : 17,
+                "country" : "Croatia",
+                "name" : "Ivan Šaponjić"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Diego Costa"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Antonio Adán"
+            },
+            {
+                "number" : 28,
+                "country" : "Slovenia",
+                "name" : "Jan Oblak "
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Ghana",
+                "name" : "Thomas Partey"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Koke "
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Saúl"
+            },
+            {
+                "number" : 11,
+                "country" : "France",
+                "name" : "Thomas Lemar"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Marcos Llorente"
+            },
+            {
+                "number" : 16,
+                "country" : "Mexico",
+                "name" : "Héctor Herrera"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Vitolo"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName":  "CD Leganes",
+        "Ground" : "Estadio Municipal de Butarque",
+        "HeadCoach" : "Javier Aguirre",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Marc Navarro"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Unai Bustinza"
+            },
+            {
+                "number" : 4,
+                "country" : "Nigeria",
+                "name" : "Kenneth Omeruo"
+            },
+            {
+                "number" : 5,
+                "country" : "Argentina",
+                "name" : "Jonathan Silva"
+            },
+            {
+                "number" : 12,
+                "country" : "Nigeria",
+                "name" : "Chidozie Awaziem"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Rodrigo Tarín"
+            },
+            {
+                "number" : 16,
+                "country" : "Venezuela",
+                "name" : "Roberto Rosales"
+            },
+            {
+                "number" : 22,
+                "country" : "Greece",
+                "name" : "Dimitris Siovas"
+            },
+            {
+                "number" : 24,
+                "country" : "Portugal",
+                "name" : "Kévin Rodrigues"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Denmark",
+                "name" : "Martin Braithwaite"
+            },
+            {
+                "number" : 18,
+                "country" : "Argentina",
+                "name" : "Guido Carrillo"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Aitor Ruibal"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Pichu"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Juan Soriano"
+            },
+            {
+                "number" : 30,
+                "country" : "Brazil",
+                "name" : "André Grandi"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Roque Mesa"
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Recio"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "José Arnaiz"
+            },
+            {
+                "number" : 11,
+                "country" : "Greece",
+                "name" : "Alexander Szymanowski"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Christian Rivera"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "Javier Eraso"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Rubén Pérez"
+            },
+            {
+                "number" : 27,
+                "country" : "Spain",
+                "name" : "Óscar"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName":  "FC Barcelona",
+        "Ground" : "Camp Nou",
+        "HeadCoach" : "Quique Setién",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Portugal",
+                "name" : "Nélson Semedo"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Gerard Piqué"
+            },
+            {
+                "number" : 15,
+                "country" : "France",
+                "name" : "Clément Lenglet"
+            },
+            {
+                "number" : 16,
+                "country" : "Senegal",
+                "name" : "Moussa Wagué"
+            },
+            {
+                "number" : 18,
+                "country" : "Spain",
+                "name" : "Jordi Alba"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Sergi Roberto "
+            },
+            {
+                "number" : 23,
+                "country" : "France",
+                "name" : "Samuel Umtiti"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "Junior Firpo"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Uruguay",
+                "name" : "Luis Suárez"
+            },
+            {
+                "number" : 10,
+                "country" : "Argentina",
+                "name" : "Lionel Messi"
+            },
+            {
+                "number" : 11,
+                "country" : "France",
+                "name" : "Ousmane Dembélé"
+            },
+            {
+                "number" : 17,
+                "country" : "France",
+                "name" : "Antoine Griezmann"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Germany",
+                "name" : "Marc-André ter Stegen"
+            },
+            {
+                "number" : 13,
+                "country" : "Brazil",
+                "name" : "Neto"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 4,
+                "country" : "Croatia",
+                "name" : "Ivan Rakitić"
+            },
+            {
+                "number" : 5,
+                "country" : "Spain",
+                "name" : "Sergio Busquets"
+            },
+            {
+                "number" : 8,
+                "country" : "Brazil",
+                "name" : "Arthur"
+            },
+            {
+                "number" : 21,
+                "country" : "Netherlands",
+                "name" : "Frenkie de Jong"
+            },
+            {
+                "number" : 22,
+                "country" : "Chile",
+                "name" : "Arturo Vidal"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName":   "Getafe CF",
+        "Ground" : "Coliseum Alfonso Pérez",
+        "HeadCoach" : "José Bordalás",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Togo",
+                "name" : "Djené Dakonam"
+            },
+            {
+                "number" : 3,
+                "country" : "Portugal",
+                "name" : "Vitorino Antunes"
+            },
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Bruno"
+            },
+            {
+                "number" : 12,
+                "country" : "Cameroon",
+                "name" : "Allan Nyom"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Marc Cucurella"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Xabier Etxeita"
+            },
+            {
+                "number" : 17,
+                "country" : "Uruguay",
+                "name" : "Mathías Olivera"
+            },
+            {
+                "number" : 22,
+                "country" : "Uruguay",
+                "name" : "Damián Suárez"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Jaime Mata"
+            },
+            {
+                "number" : 9,
+                "country" : "Spain",
+                "name" : "Ángel"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Enric Gallego"
+            },
+            {
+                "number" : 11,
+                "country" : "Senegal",
+                "name" : "Amath Ndiaye"
+            },
+            {
+                "number" : 14,
+                "country" : "Brazil",
+                "name" : "Deyverson"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Jorge Molina"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Argentina",
+                "name" : "Leandro Chichizola"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "David Soria"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Nigeria",
+                "name" : "Peter Etebo"
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Francisco Portillo"
+            },
+            {
+                "number" : 18,
+                "country" : "Uruguay",
+                "name" : "Mauro Arambarri"
+            },
+            {
+                "number" : 20,
+                "country" : "Croatia",
+                "name" : "Nemanja Maksimović"
+            },
+            {
+                "number" : 21,
+                "country" : "Morocco",
+                "name" : "Fayçal Fajr"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Jason"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "David Timor"
+            },
+            {
+                "number" : 25,
+                "country" : "Brazil",
+                "name" : "Kenedy"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName":   "Granada CF",
+        "Ground" : "Nuevo Los Cármenes",
+        "HeadCoach" : "Diego Martínez",
+        "Defender" : [
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Álex Martínez"
+            },
+            {
+                "number" : 5,
+                "country" : "Spain",
+                "name" : "José Martínez "
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Germán"
+            },
+            {
+                "number" : 11,
+                "country" : "Turkey",
+                "name" : "İsmail Köybaşı"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Carlos Neva"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Víctor Díaz"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "Quini"
+            },
+            {
+                "number" : 18,
+                "country" : "Colombia",
+                "name" : "Neyder Lozano"
+            },
+            {
+                "number" : 20,
+                "country" : "Guadeloupe",
+                "name" : "Dimitri Foulquier"
+            },
+            {
+                "number" : 22,
+                "country" : "Portugal",
+                "name" : "Domingos Duarte"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Spain",
+                "name" : "Roberto Soldado"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Antonio Puertas"
+            },
+            {
+                "number" : 23,
+                "country" : "Venezuela",
+                "name" : "Darwin Machís"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "Carlos Fernández"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Portugal",
+                "name" : "Rui Silva"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Aarón"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 4,
+                "country" : "France",
+                "name" : "Maxime Gonalons"
+            },
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Álvaro Vadillo"
+            },
+            {
+                "number" : 8,
+                "country" : "Cameroon",
+                "name" : "Yan Eteki"
+            },
+            {
+                "number" : 12,
+                "country" : "Nigeria",
+                "name" : "Ramon Azeez"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Fede Vico"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Ángel Montoro"
+            },
+            {
+                "number" : 21,
+                "country" : "Venezuela",
+                "name" : "Yangel Herrera"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName":   "Levante UD",
+        "Ground" : "Ciutat de València",
+        "HeadCoach" : "Paco López",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Iván López"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Toño"
+            },
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Róber"
+            },
+            {
+                "number" : 6,
+                "country" : "Costa Rica",
+                "name" : "Óscar Duarte"
+            },
+            {
+                "number" : 14,
+                "country" : "Portugal",
+                "name" : "Rúben Vezo"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Sergio Postigo"
+            },
+            {
+                "number" : 18,
+                "country" : "Uruguay",
+                "name" : "Erick Cabaco"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Carlos Clerc"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Jorge Miramón"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Coke"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Sergio León"
+            },
+            {
+                "number" : 8,
+                "country" : "Portugal",
+                "name" : "Hernâni"
+            },
+            {
+                "number" : 9,
+                "country" : "Spain",
+                "name" : "Roger"
+            },
+            {
+                "number" : 11,
+                "country" : "Spain",
+                "name" : "José Luis Morales"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Borja Mayoral"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Oier"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Aitor Fernández"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Croatia",
+                "name" : "Nemanja Radoja"
+            },
+            {
+                "number" : 10,
+                "country" : "North Macedonia",
+                "name" : "Enis Bardhi"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Rubén Rochina"
+            },
+            {
+                "number" : 17,
+                "country" : "Montenegro",
+                "name" : "Nikola Vukčević"
+            },
+            {
+                "number" : 22,
+                "country" : "Spain",
+                "name" : "Gonzalo Melero"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "José Campaña"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName":  "Osasuna",
+        "Ground" : "El Sadar",
+        "HeadCoach" : "Jagoba Arrasate",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Nacho Vidal"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Raúl Navas"
+            },
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Unai García"
+            },
+            {
+                "number" : 5,
+                "country" : "Spain",
+                "name" : "David García"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Oier"
+            },
+            {
+                "number" : 12,
+                "country" : "Argentina",
+                "name" : "Facundo Roncaglia"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Toni Lato"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Aridane"
+            },
+            {
+                "number" : 29,
+                "country" : "Spain",
+                "name" : "Endika Irigoien"
+            },
+            {
+                "number" : 30,
+                "country" : "Ecuador",
+                "name" : "Pervis Estupiñán"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Marc Cardona"
+            },
+            {
+                "number" : 9,
+                "country" : "Argentina",
+                "name" : "Chimy Ávila"
+            },
+            {
+                "number" : 18,
+                "country" : "Spain",
+                "name" : "Juan Villar"
+            },
+            {
+                "number" : 22,
+                "country" : "Spain",
+                "name" : "Adrián"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Sergio Herrera"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Rubén Martínez"
+            },
+            {
+                "number" : 26,
+                "country" : "Spain",
+                "name" : "Juan Pérez"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Fran Mérida"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Roberto Torres"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Rubén García"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "Rober"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Kike Barja"
+            },
+            {
+                "number" : 20,
+                "country" : "Croatia",
+                "name" : "Darko Brašanac"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Iñigo Pérez"
+            },
+            {
+                "number" : 27,
+                "country" : "Spain",
+                "name" : "Jon Moncayola"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName":  "RC Celta",
+        "Ground" : "Abanca-Balaídos",
+        "HeadCoach" : "Óscar García Junyent",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Hugo Mallo"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "David Costas"
+            },
+            {
+                "number" : 4,
+                "country" : "Mexico",
+                "name" : "Néstor Araujo"
+            },
+            {
+                "number" : 15,
+                "country" : "Uruguay",
+                "name" : "Lucas Olaza"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Jorge"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "David Juncà"
+            },
+            {
+                "number" : 18,
+                "country" : "Ghana",
+                "name" : "Joseph Aidoo"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Kevin"
+            },
+            {
+                "number" : 21,
+                "country" : "Colombia",
+                "name" : "Jeison Murillo"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Juan Hernández"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Iago Aspas"
+            },
+            {
+                "number" : 19,
+                "country" : "Uruguay",
+                "name" : "Gabriel Fernández"
+            },
+            {
+                "number" : 22,
+                "country" : "Spain",
+                "name" : "Santi Mina"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Sergio"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Rubén Blanco"
+            },
+            {
+                "number" : 25,
+                "country" : "Spain",
+                "name" : "Iván Villar"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Turkey",
+                "name" : "Okay Yokuşlu"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Denis Suárez"
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Fran Beltrán"
+            },
+            {
+                "number" : 11,
+                "country" : "Denmark",
+                "name" : "Pione Sisto"
+            },
+            {
+                "number" : 12,
+                "country" : "Brazil",
+                "name" : "Rafinha"
+            },
+            {
+                "number" : 14,
+                "country" : "Croatia",
+                "name" : "Filip Bradarić"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Brais Méndez"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "Pape Cheikh"
+            }
+        ]
+    },
+    
+    
+    
+    
+    {
+        "ClubName":  "RCD Espanyol",
+        "Ground" : "RCDE Stadium",
+        "HeadCoach" : "Abelardo",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Pipa"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Adrià Pedrosa"
+            },
+            {
+                "number" : 5,
+                "country" : "Brazil",
+                "name" : "Naldo"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Lluís López"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Javi López"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "Dídac Vilà"
+            },
+            {
+                "number" : 18,
+                "country" : "Uruguay",
+                "name" : "Leandro Cabrera"
+            },
+            {
+                "number" : 20,
+                "country" : "Colombia",
+                "name" : "Bernardo Espinosa"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "Fernando Calero"
+            },
+            {
+                "number" : 34,
+                "country" : "Spain",
+                "name" : "Víctor Gómez"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "China",
+                "name" : "Wu Lei"
+            },
+            {
+                "number" : 9,
+                "country" : "Argentina",
+                "name" : "Facundo Ferreyra"
+            },
+            {
+                "number" : 11,
+                "country" : "Spain",
+                "name" : "Raúl de Tomás"
+            },
+            {
+                "number" : 12,
+                "country" : "Argentina",
+                "name" : "Jonathan Calleri "
+            },
+            {
+                "number" : 25,
+                "country" : "Spain",
+                "name" : "Adri Embarba"
+            },
+            {
+                "number" : 31,
+                "country" : "Spain",
+                "name" : "Víctor Campuzano"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Andrés Prieto"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Diego López"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Víctor Sánchez"
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Ander Iturraspe"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Sergi Darder"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Óscar Melendo"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "David López"
+            },
+            {
+                "number" : 19,
+                "country" : "Argentina",
+                "name" : "Pablo Piatti"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Marc Roca"
+            },
+            {
+                "number" : 22,
+                "country" : "Argentina",
+                "name" : "Matías Vargas"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Esteban Granero"
+            },
+            {
+                "number" : 26,
+                "country" : "Spain",
+                "name" : "Pol Lozano"
+            }
+        ]
+    },
+    
+    
+    
+    
+    {
+        "ClubName":  "RCD Mallorca",
+        "Ground" : "Estadi de Son Moix",
+        "HeadCoach" : "Vicente Moreno",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Joan Sastre"
+            },
+            {
+                "number" : 3,
+                "country" : "Ghana",
+                "name" : "Lumor Agbenyenu "
+            },
+            {
+                "number" : 5,
+                "country" : "Spain",
+                "name" : "Xisco Campos"
+            },
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Alejandro Pozo"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Fran Gámez"
+            },
+            {
+                "number" : 18,
+                "country" : "Ghana",
+                "name" : "Baba Rahman"
+            },
+            {
+                "number" : 20,
+                "country" : "Serbia",
+                "name" : "Aleksandar Sedlar"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Antonio Raíllo"
+            },
+            {
+                "number" : 24,
+                "country" : "Slovakia",
+                "name" : "Martin Valjent"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Spain",
+                "name" : "Abdón"
+            },
+            {
+                "number" : 11,
+                "country" : "Ivory Coast",
+                "name" : "Lago Junior"
+            },
+            {
+                "number" : 16,
+                "country" : "France",
+                "name" : "Yannis Salibur"
+            },
+            {
+                "number" : 17,
+                "country" : "North Macedonia",
+                "name" : "Aleksandar Trajkovski"
+            },
+            {
+                "number" : 19,
+                "country" : "Argentina",
+                "name" : "Pablo Chavarría"
+            },
+            {
+                "number" : 22,
+                "country" : "Croatia",
+                "name" : "Ante Budimir"
+            },
+            {
+                "number" : 27,
+                "country" : "Colombia",
+                "name" : "Cucho Hernández"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Manolo Reina"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Fabri"
+            },
+            {
+                "number" : 25,
+                "country" : "Spain",
+                "name" : "Miquel Parera"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Josep Señé"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Marc Pedraza"
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Salva Sevilla"
+            },
+            {
+                "number" : 12,
+                "country" : "Ghana",
+                "name" : "Iddrisu Baba"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Dani Rodríguez"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Aleix Febas"
+            },
+            {
+                "number" : 26,
+                "country" : "Spain",
+                "name" : "Takefusa Kubo "
+            }
+        ]
+    },
+    
+    
+    {
+        "ClubName":  "Real Betis",
+        "Ground" : "Estadio Benito Villamarín",
+        "HeadCoach" : "Rubi",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Francis"
+            },
+            {
+                "number" : 4,
+                "country" : "Morocco",
+                "name" : "Zouhair Feddal"
+            },
+            {
+                "number" : 5,
+                "country" : "Spain",
+                "name" : "Marc Bartra"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Alfonso Pedraza"
+            },
+            {
+                "number" : 12,
+                "country" : "Brazil",
+                "name" : "Sidnei"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Álex Moreno"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Antonio Barragán"
+            },
+            {
+                "number" : 22,
+                "country" : "Brazil",
+                "name" : "Emerson"
+            },
+            {
+                "number" : 23,
+                "country" : "Algeria",
+                "name" : "Aïssa Mandi"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Juanmi"
+            },
+            {
+                "number" : 9,
+                "country" : "Spain",
+                "name" : "Borja Iglesias"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Loren"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Joel Robles"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Dani Martín"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Javi García"
+            },
+            {
+                "number" : 8,
+                "country" : "France",
+                "name" : "Nabil Fekir"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Sergio Canales"
+            },
+            {
+                "number" : 11,
+                "country" : "Spain",
+                "name" : "Cristian Tello"
+            },
+            {
+                "number" : 14,
+                "country" : "Portugal",
+                "name" : "William Carvalho"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "Joaquín"
+            },
+            {
+                "number" : 18,
+                "country" : "Mexico",
+                "name" : "Andrés Guardado"
+            },
+            {
+                "number" : 20,
+                "country" : "Mexico",
+                "name" : "Diego Lainez"
+            },
+            {
+                "number" : 21,
+                "country" : "Argentina",
+                "name" : "Guido Rodríguez"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "Carles Aleñá"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName": "Real Madrid",
+        "Ground" : "Estadio Santiago Bernabéu",
+        "HeadCoach" : "Zinedine Zidane",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Dani Carvajal"
+            },
+            {
+                "number" : 3,
+                "country" : "Brazil",
+                "name" : "Éder Militão"
+            },
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Sergio Ramos"
+            },
+            {
+                "number" : 5,
+                "country" : "France",
+                "name" : "Raphaël Varane"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Nacho"
+            },
+            {
+                "number" : 12,
+                "country" : "Brazil",
+                "name" : "Marcelo"
+            },
+            {
+                "number" : 23,
+                "country" : "France",
+                "name" : "Ferland Mendy"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Belgium",
+                "name" : "Eden Hazard"
+            },
+            {
+                "number" : 9,
+                "country" : "France",
+                "name" : "Karim Benzema"
+            },
+            {
+                "number" : 11,
+                "country" : "Wales",
+                "name" : "Gareth Bale"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "Lucas Vázquez"
+            },
+            {
+                "number" : 18,
+                "country" : "Serbia",
+                "name" : "Luka Jović"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Marco Asensio"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Brahim Díaz"
+            },
+            {
+                "number" : 24,
+                "country" : "Dominican Republic",
+                "name" : "Mariano"
+            },
+            {
+                "number" : 25,
+                "country" : "Brazil",
+                "name" : "Vinícius Júnior"
+            },
+            {
+                "number" : 27,
+                "country" : "Brazil",
+                "name" : "Rodrygo"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "France",
+                "name" : "Alphonse Areola"
+            },
+            {
+                "number" : 13,
+                "country" : "Belgium",
+                "name" : "Thibaut Courtois"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 8,
+                "country" : "Germany",
+                "name" : "Toni Kroos"
+            },
+            {
+                "number" : 10,
+                "country" : "Croatia",
+                "name" : "Luka Modrić"
+            },
+            {
+                "number" : 14,
+                "country" : "Brazil",
+                "name" : "Casemiro"
+            },
+            {
+                "number" : 15,
+                "country" : "Uruguay",
+                "name" : "Federico Valverde"
+            },
+            {
+                "number" : 16,
+                "country" : "Colombia",
+                "name" : "James Rodríguez"
+            },
+            {
+                "number" : 22,
+                "country" : "Spain",
+                "name" : "Isco"
+            }
+        ]
+    },
+    
+    
+    {
+        "ClubName": "Real Sociedad",
+        "Ground" : "Anoeta",
+        "HeadCoach" : "Imanol Alguacil",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Joseba Zaldúa"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Diego Llorente"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Aritz Elustondo"
+            },
+            {
+                "number" : 12,
+                "country" : "Spain",
+                "name" : "Aihen Muñoz"
+            },
+            {
+                "number" : 15,
+                "country" : "France",
+                "name" : "Modibo Sagnan"
+            },
+            {
+                "number" : 18,
+                "country" : "Spain",
+                "name" : "Andoni Gorosabel"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Nacho Monreal"
+            },
+            {
+                "number" : 24,
+                "country" : "France",
+                "name" : "Robin Le Normand"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "Brazil",
+                "name" : "Willian José"
+            },
+            {
+                "number" : 19,
+                "country" : "Sweden",
+                "name" : "Alexander Isak"
+            },
+            {
+                "number" : 22,
+                "country" : "Spain",
+                "name" : "Ander Barrenetxea"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Álex Remiro"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Miguel Ángel Moyá"
+            },
+            {
+                "number" : 30,
+                "country" : "Spain",
+                "name" : "Andoni Zubiaurre"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Asier Illarramendi"
+            },
+            {
+                "number" : 5,
+                "country" : "Spain",
+                "name" : "Igor Zubeldia"
+            },
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Portu"
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Mikel Merino"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Mikel Oyarzabal"
+            },
+            {
+                "number" : 11,
+                "country" : "Belgium",
+                "name" : "Adnan Januzaj"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Rubén Pardo"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Ander Guevara"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "David Zurutuza"
+            },
+            {
+                "number" : 21,
+                "country" : "Norway",
+                "name" : "Martin Ødegaard"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Luca Sangalli"
+            }
+        ]
+    },
+    
+    
+    
+    
+    {
+        "ClubName": "Real Valladolid CF",
+        "Ground" : "José Zorrilla",
+        "HeadCoach" : "Sergio González",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Pedro Porro"
+            },
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Kiko"
+            },
+            {
+                "number" : 5,
+                "country" : "Spain",
+                "name" : "Javi Sánchez"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Raúl García"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "Javi Moyano"
+            },
+            {
+                "number" : 18,
+                "country" : "Spain",
+                "name" : "Antoñito"
+            },
+            {
+                "number" : 22,
+                "country" : "Spain",
+                "name" : "Nacho"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "Joaquín"
+            },
+            {
+                "number" : 27,
+                "country" : "Ghana",
+                "name" : "Mohammed Salisu"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Sergi Guardiola"
+            },
+            {
+                "number" : 9,
+                "country" : "Turkey",
+                "name" : "Enes Ünal"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Óscar Plano"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Sandro"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Waldo Rubio"
+            },
+            {
+                "number" : 31,
+                "country" : "Ecuador",
+                "name" : "Stiven Plaza"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Jordi Masip"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "José Antonio Caro"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 11,
+                "country" : "Spain",
+                "name" : "Pablo Hervías"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Rubén Alcaraz"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Fede San Emeterio"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Toni Villa"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Míchel"
+            },
+            {
+                "number" : 33,
+                "country" : "Mauritania",
+                "name" : "El Hacen"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName": "SD Eibar",
+        "Ground" : "Ipurua Municipal Stadium",
+        "HeadCoach" : "José Luis Mendilibar",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Argentina",
+                "name" : "Esteban Burgos"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Pedro Bigas"
+            },
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Iván Ramis"
+            },
+            {
+                "number" : 12,
+                "country" : "Portugal",
+                "name" : "Paulo Oliveira"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Rober Correa"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Anaitz Arbilla"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "Álvaro Tejero"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Quique González"
+            },
+            {
+                "number" : 9,
+                "country" : "Spain",
+                "name" : "Sergi Enrich"
+            },
+            {
+                "number" : 17,
+                "country" : "Spain",
+                "name" : "Kike"
+            },
+            {
+                "number" : 19,
+                "country" : "Brazil",
+                "name" : "Charles"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Serbia",
+                "name" : "Marko Dmitrović"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Yoel"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Argentina",
+                "name" : "Gonzalo Escalante"
+            },
+            {
+                "number" : 6,
+                "country" : "Spain",
+                "name" : "Sergio Álvarez"
+            },
+            {
+                "number" : 8,
+                "country" : "Senegal",
+                "name" : "Pape Diop"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Edu Expósito"
+            },
+            {
+                "number" : 14,
+                "country" : "Chile",
+                "name" : "Fabián Orellana"
+            },
+            {
+                "number" : 15,
+                "country" : "Uruguay",
+                "name" : "Sebastián Cristóforo"
+            },
+            {
+                "number" : 16,
+                "country" : "Argentina",
+                "name" : "Pablo de Blasis"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Pedro León"
+            },
+            {
+                "number" : 22,
+                "country" : "Japan",
+                "name" : "Takashi Inui"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName": "Sevilla FC",
+        "Ground" : "Estadio Ramón Sánchez Pizjuán",
+        "HeadCoach" : "Julen Lopetegui",
+        "Defender" : [
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Sergi Gómez"
+            },
+            {
+                "number" : 6,
+                "country" : "Portugal",
+                "name" : "Daniel Carriço"
+            },
+            {
+                "number" : 12,
+                "country" : "France",
+                "name" : "Jules Koundé"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Jesús Navas"
+            },
+            {
+                "number" : 18,
+                "country" : "Spain",
+                "name" : "Sergio Escudero "
+            },
+            {
+                "number" : 20,
+                "country" : "Brazil",
+                "name" : "Diego Carlos"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Sergio Reguilón"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Nolito"
+            },
+            {
+                "number" : 11,
+                "country" : "Spain",
+                "name" : "Munir"
+            },
+            {
+                "number" : 15,
+                "country" : "Morocco",
+                "name" : "Youssef En-Nesyri"
+            },
+            {
+                "number" : 19,
+                "country" : "Netherlands",
+                "name" : "Luuk de Jong"
+            },
+            {
+                "number" : 30,
+                "country" : "Spain",
+                "name" : "Bryan Gil"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Czech Republic",
+                "name" : "Tomáš Vaclík"
+            },
+            {
+                "number" : 13,
+                "country" : "Morocco",
+                "name" : "Bono"
+            },
+            {
+                "number" : 31,
+                "country" : "Spain",
+                "name" : "Javi Díaz"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Argentina",
+                "name" : "Lucas Ocampos"
+            },
+            {
+                "number" : 7,
+                "country" : "Portugal",
+                "name" : "Rony Lopes"
+            },
+            {
+                "number" : 10,
+                "country" : "Argentina",
+                "name" : "Éver Banega"
+            },
+            {
+                "number" : 17,
+                "country" : "Serbia",
+                "name" : "Nemanja Gudelj"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Óliver Torres"
+            },
+            {
+                "number" : 22,
+                "country" : "Argentina",
+                "name" : "Franco Vázquez"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "Joan Jordán"
+            },
+            {
+                "number" : 25,
+                "country" : "Brazil",
+                "name" : "Fernando"
+            }
+        ]
+    },
+    
+    
+    
+    
+    {
+        "ClubName": "Valencia CF" ,
+        "Ground" : "Mestalla",
+        "HeadCoach" :  "Albert Celades",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Portugal",
+                "name" : "Thierry Correia"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Jaume Costa"
+            },
+            {
+                "number" : 4,
+                "country" : "France",
+                "name" : "Eliaquim Mangala"
+            },
+            {
+                "number" : 5,
+                "country" : "Brazil",
+                "name" : "Gabriel Paulista"
+            },
+            {
+                "number" : 12,
+                "country" : "France",
+                "name" : "Mouctar Diakhaby"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "José Gayà"
+            },
+            {
+                "number" : 21,
+                "country" : "Itlay",
+                "name" : "Cristiano Piccini"
+            },
+            {
+                "number" : 24,
+                "country" : "Argentina",
+                "name" : "Ezequiel Garay"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 9,
+                "country" : "France",
+                "name" : "Kevin Gameiro"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Manu Vallejo"
+            },
+            {
+                "number" : 19,
+                "country" : "Spain",
+                "name" : "Rodrigo"
+            },
+            {
+                "number" : 22,
+                "country" : "Uruguay",
+                "name" : "Maxi Gómez"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Rubén Sobrino"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Jaume Doménech"
+            },
+            {
+                "number" : 13,
+                "country" : "Netherlands",
+                "name" : "Jasper Cillessen"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 6,
+                "country" : "Central African Republic",
+                "name" : "Geoffrey Kondogbia"
+            },
+            {
+                "number" : 7,
+                "country" : "Portugal",
+                "name" : "Gonçalo Guedes"
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Carlos Soler"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Dani Parejo"
+            },
+            {
+                "number" : 11,
+                "country" : "Russia",
+                "name" : "Denis Cheryshev"
+            },
+            {
+                "number" : 16,
+                "country" : "South Korea",
+                "name" : "Lee Kang-in"
+            },
+            {
+                "number" : 17,
+                "country" : "France",
+                "name" : "Francis Coquelin"
+            },
+            {
+                "number" : 18,
+                "country" : "Denmark",
+                "name" : "Daniel Wass"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Ferran Torres"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "ClubName": "Villarreal CF" ,
+        "Ground" : "Estadio de la Cerámica",
+        "HeadCoach" :  "Javier Calleja",
+        "Defender" : [
+            {
+                "number" : 2,
+                "country" : "Spain",
+                "name" : "Mario Gaspar"
+            },
+            {
+                "number" : 3,
+                "country" : "Spain",
+                "name" : "Raúl Albiol"
+            },
+            {
+                "number" : 4,
+                "country" : "Spain",
+                "name" : "Pau Torres"
+            },
+            {
+                "number" : 6,
+                "country" : "Argentina",
+                "name" : "Ramiro Funes Mori"
+            },
+            {
+                "number" : 16,
+                "country" : "Spain",
+                "name" : "Xavi Quintillà"
+            },
+            {
+                "number" : 18,
+                "country" : "Spain",
+                "name" : "Alberto Moreno"
+            },
+            {
+                "number" : 20,
+                "country" : "Spain",
+                "name" : "Rubén Peña"
+            }
+        ],
+        "Forward" : [
+            {
+                "number" : 7,
+                "country" : "Spain",
+                "name" : "Gerard"
+            },
+            {
+                "number" : 9,
+                "country" : "Colombia",
+                "name" : "Carlos Bacca"
+            }
+        ],
+        "GoalKeeper" : [
+            {
+                "number" : 1,
+                "country" : "Spain",
+                "name" : "Sergio Asenjo"
+            },
+            {
+                "number" : 13,
+                "country" : "Spain",
+                "name" : "Andrés Fernández"
+            },
+            {
+                "number" : 25,
+                "country" : "Argentina",
+                "name" : "Mariano Barbosa"
+            }
+        ],
+        "Midfielder" : [
+            {
+                "number" : 5,
+                "country" : "Argentina",
+                "name" : "Santiago Cáseres"
+            },
+            {
+                "number" : 8,
+                "country" : "Spain",
+                "name" : "Santi Cazorla"
+            },
+            {
+                "number" : 10,
+                "country" : "Spain",
+                "name" : "Vicente Iborra"
+            },
+            {
+                "number" : 11,
+                "country" : "Nigeria",
+                "name" : "Samuel Chukwueze"
+            },
+            {
+                "number" : 14,
+                "country" : "Spain",
+                "name" : "Manu Trigueros"
+            },
+            {
+                "number" : 15,
+                "country" : "Spain",
+                "name" : "Manu Morlanes"
+            },
+            {
+                "number" : 19,
+                "country" : "Cameroon",
+                "name" : "André-Frank Zambo Anguissa"
+            },
+            {
+                "number" : 21,
+                "country" : "Spain",
+                "name" : "Bruno"
+            },
+            {
+                "number" : 23,
+                "country" : "Spain",
+                "name" : "Moi Gómez"
+            },
+            {
+                "number" : 24,
+                "country" : "Spain",
+                "name" : "Javi Ontiveros"
+            }
+        ]
+    }
+]
+

@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ClubViewController: UIViewController{
 
     
@@ -42,6 +43,7 @@ class ClubViewController: UIViewController{
         setupCollectionView()
         clubCollectionView.delegate = self
         clubCollectionView.dataSource = self
+        
     }
 
     override func didReceiveMemoryWarning() {
