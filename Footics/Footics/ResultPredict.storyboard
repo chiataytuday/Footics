@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Up-sl-u3R">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="koverwatch.ttf">
+            <string>Koverwatch</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--예측 결과-->
+        <scene sceneID="Hke-mW-HKz">
+            <objects>
+                <viewController storyboardIdentifier="ResultView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3Up-sl-u3R" customClass="ResultPredictViewController" customModule="Footics" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gty-fc-SWX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="naa-V1-ULq">
+                                <rect key="frame" x="20" y="289" width="374" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="예상 승율" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgk-1m-AmR">
+                                        <rect key="frame" x="163" y="0.0" width="48.5" height="17"/>
+                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gYK-5L-s9E">
+                                        <rect key="frame" x="12" y="30" width="350" height="2"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="fUD-A5-pml"/>
+                                        </constraints>
+                                        <color key="progressTintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="trackTintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="TAA-B9-WBH">
+                                        <rect key="frame" x="12" y="45" width="350" height="15"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="홈 승리: 100% " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7A-5K-1d9">
+                                                <rect key="frame" x="0.0" y="0.0" width="131.5" height="15"/>
+                                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="무승부: 100%" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N38-K1-0VJ">
+                                                <rect key="frame" x="144.5" y="0.0" width="61" height="15"/>
+                                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="어웨이 승리: 100%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSp-YW-ypK">
+                                                <rect key="frame" x="218.5" y="0.0" width="131.5" height="15"/>
+                                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="N38-K1-0VJ" firstAttribute="centerX" secondItem="TAA-B9-WBH" secondAttribute="centerX" id="RGN-m6-P0T"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="TAA-B9-WBH" firstAttribute="leading" secondItem="gYK-5L-s9E" secondAttribute="leading" id="QlW-U8-gCL"/>
+                                    <constraint firstItem="TAA-B9-WBH" firstAttribute="trailing" secondItem="gYK-5L-s9E" secondAttribute="trailing" id="bkR-6M-eZ5"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Zja-Lb-TMt">
+                                <rect key="frame" x="20" y="374" width="374" height="488"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="최근 경기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QB0-wY-Sjn">
+                                        <rect key="frame" x="163.5" y="0.0" width="47.5" height="17"/>
+                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ha1-Mo-08Y">
+                                        <rect key="frame" x="0.0" y="30" width="374" height="458"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dvj-va-fSm">
+                                                <rect key="frame" x="0.0" y="28" width="374" height="43.5"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dvj-va-fSm" id="fq0-0x-dJS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="19-20 챔피언스리그 결승전 3 - 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUo-3m-n8W">
+                                                            <rect key="frame" x="20" y="11" width="226" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="sfL-HW-FkD">
+                                                <rect key="frame" x="0.0" y="71.5" width="374" height="43.5"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sfL-HW-FkD" id="h0F-4m-amC">
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="18-19 챔피언스리그 결승전 3 - 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJO-B5-ZuK">
+                                                            <rect key="frame" x="20" y="11" width="224" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ObF-NN-A2h">
+                                                <rect key="frame" x="0.0" y="115" width="374" height="43.5"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ObF-NN-A2h" id="hS7-26-dBQ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="17-18 챔피언스리그 결승전 3 - 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZN-hL-Ezx">
+                                                            <rect key="frame" x="20" y="11" width="223" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <sections/>
+                                    </tableView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ha1-Mo-08Y" firstAttribute="width" secondItem="Zja-Lb-TMt" secondAttribute="width" id="YaO-bh-nnh"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="ImD-po-YaK">
+                                <rect key="frame" x="20" y="44" width="374" height="225"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="aKL-l0-Pl3">
+                                        <rect key="frame" x="0.0" y="0.0" width="152.5" height="225"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0hm-Ug-NLF">
+                                                <rect key="frame" x="14" y="0.0" width="124.5" height="174.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mY4-zg-7Ja">
+                                                        <rect key="frame" x="45.5" y="0.0" width="34" height="45.5"/>
+                                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wbU-Lk-DsV">
+                                                        <rect key="frame" x="0.0" y="50.5" width="124.5" height="124"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="wbU-Lk-DsV" secondAttribute="height" multiplier="1:1" id="f1D-1h-BLF"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HomeScore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9K-Jq-Pcm" userLabel="HomeScore">
+                                                <rect key="frame" x="9" y="189.5" width="134.5" height="35.5"/>
+                                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="40"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="—" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ws-oy-7V9">
+                                        <rect key="frame" x="177.5" y="92.5" width="19" height="40"/>
+                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="JzL-RV-jjQ">
+                                        <rect key="frame" x="221.5" y="0.0" width="152.5" height="225"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0sG-HG-r6j">
+                                                <rect key="frame" x="14" y="0.0" width="124.5" height="174.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tec-aY-vnX">
+                                                        <rect key="frame" x="44" y="0.0" width="36.5" height="45.5"/>
+                                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YxW-GZ-bVg">
+                                                        <rect key="frame" x="0.0" y="50.5" width="124.5" height="124"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="YxW-GZ-bVg" secondAttribute="height" multiplier="1:1" id="al3-X4-OxO"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AwayScore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mij-hS-kY6" userLabel="AwayScore">
+                                                <rect key="frame" x="7" y="189.5" width="139" height="35.5"/>
+                                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="40"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9ws-oy-7V9" firstAttribute="centerX" secondItem="ImD-po-YaK" secondAttribute="centerX" id="Lc0-zc-jdo"/>
+                                    <constraint firstItem="9ws-oy-7V9" firstAttribute="centerY" secondItem="wbU-Lk-DsV" secondAttribute="centerY" id="RhE-fq-QYk"/>
+                                    <constraint firstItem="YxW-GZ-bVg" firstAttribute="centerY" secondItem="wbU-Lk-DsV" secondAttribute="centerY" id="S5c-qq-og3"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="naa-V1-ULq" firstAttribute="trailing" secondItem="Mmp-pj-Iti" secondAttribute="trailing" constant="-20" id="91g-cb-Vjt"/>
+                            <constraint firstItem="Mmp-pj-Iti" firstAttribute="trailing" secondItem="ImD-po-YaK" secondAttribute="trailing" constant="20" id="9oz-aC-s6h"/>
+                            <constraint firstItem="Zja-Lb-TMt" firstAttribute="leading" secondItem="Mmp-pj-Iti" secondAttribute="leading" constant="20" id="B47-iw-1mr"/>
+                            <constraint firstItem="ImD-po-YaK" firstAttribute="leading" secondItem="Mmp-pj-Iti" secondAttribute="leading" constant="20" id="DAn-Pt-FZx"/>
+                            <constraint firstItem="ImD-po-YaK" firstAttribute="top" secondItem="Mmp-pj-Iti" secondAttribute="top" id="Duu-61-Z5o"/>
+                            <constraint firstItem="Mmp-pj-Iti" firstAttribute="bottom" secondItem="ha1-Mo-08Y" secondAttribute="bottom" id="Fp5-JJ-YYg"/>
+                            <constraint firstItem="ImD-po-YaK" firstAttribute="centerX" secondItem="Mmp-pj-Iti" secondAttribute="centerX" id="M94-VM-y3w"/>
+                            <constraint firstItem="YxW-GZ-bVg" firstAttribute="width" secondItem="gty-fc-SWX" secondAttribute="width" multiplier="0.3" id="MBv-Mu-QZi"/>
+                            <constraint firstItem="wbU-Lk-DsV" firstAttribute="width" secondItem="gty-fc-SWX" secondAttribute="width" multiplier="0.3" id="N4M-h5-Jn4"/>
+                            <constraint firstItem="naa-V1-ULq" firstAttribute="top" secondItem="ImD-po-YaK" secondAttribute="bottom" constant="20" id="ZbR-vY-9q5"/>
+                            <constraint firstItem="Zja-Lb-TMt" firstAttribute="trailing" secondItem="Mmp-pj-Iti" secondAttribute="trailing" constant="-20" id="gCQ-PE-0DR"/>
+                            <constraint firstItem="naa-V1-ULq" firstAttribute="leading" secondItem="Mmp-pj-Iti" secondAttribute="leading" constant="20" id="gGi-vI-auQ"/>
+                            <constraint firstItem="Zja-Lb-TMt" firstAttribute="top" secondItem="naa-V1-ULq" secondAttribute="bottom" constant="25" id="ggn-04-wdn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mmp-pj-Iti"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="예측 결과" id="dKs-Xh-ajH"/>
+                    <connections>
+                        <outlet property="DrawRate" destination="N38-K1-0VJ" id="ZhD-Vj-hlf"/>
+                        <outlet property="VictoryRateBar" destination="gYK-5L-s9E" id="MFl-WA-fBj"/>
+                        <outlet property="recentMatchTableView" destination="ha1-Mo-08Y" id="dpa-2V-sX3"/>
+                        <outlet property="teamOneLogo" destination="wbU-Lk-DsV" id="i8f-BT-790"/>
+                        <outlet property="teamOneName" destination="mY4-zg-7Ja" id="ely-wi-kB5"/>
+                        <outlet property="teamOneScore" destination="S9K-Jq-Pcm" id="lK8-Go-aTB"/>
+                        <outlet property="teamOneWinRate" destination="K7A-5K-1d9" id="o1u-zh-1bx"/>
+                        <outlet property="teamTwoLogo" destination="YxW-GZ-bVg" id="AlC-Og-3Sc"/>
+                        <outlet property="teamTwoName" destination="Tec-aY-vnX" id="m7p-bq-Uhp"/>
+                        <outlet property="teamTwoScore" destination="Mij-hS-kY6" id="etO-5k-gpG"/>
+                        <outlet property="teamTwoWinRate" destination="tSp-YW-ypK" id="qwF-Il-So3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wes-9e-avu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3779.7101449275365" y="826.33928571428567"/>
+        </scene>
+    </scenes>
+</document>
