@@ -12,7 +12,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Result Predict View Controller-->
+        <!--예측 결과-->
         <scene sceneID="Hke-mW-HKz">
             <objects>
                 <viewController storyboardIdentifier="ResultView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3Up-sl-u3R" customClass="ResultPredictViewController" customModule="Footics" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,57 +20,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Team1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mY4-zg-7Ja">
-                                <rect key="frame" x="69" y="44" width="34" height="20"/>
-                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TmD-oy-NBK">
-                                <rect key="frame" x="20" y="86" width="374" height="225"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="47" translatesAutoresizingMaskIntoConstraints="NO" id="7qI-BY-cYu">
-                                        <rect key="frame" x="3" y="0.0" width="368" height="165"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wbU-Lk-DsV">
-                                                <rect key="frame" x="0.0" y="17.5" width="123.5" height="130"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="—" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ws-oy-7V9">
-                                                <rect key="frame" x="170.5" y="62.5" width="19" height="40"/>
-                                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="40"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YxW-GZ-bVg">
-                                                <rect key="frame" x="236.5" y="17.5" width="131.5" height="130"/>
-                                            </imageView>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="107" translatesAutoresizingMaskIntoConstraints="NO" id="KTf-ew-67A">
-                                        <rect key="frame" x="0.0" y="185" width="374" height="40"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="HomeScore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9K-Jq-Pcm" userLabel="HomeScore">
-                                                <rect key="frame" x="0.0" y="0.0" width="129.5" height="40"/>
-                                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="40"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="AwayScore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mij-hS-kY6" userLabel="AwayScore">
-                                                <rect key="frame" x="236.5" y="0.0" width="137.5" height="40"/>
-                                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="40"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="S9K-Jq-Pcm" firstAttribute="centerX" secondItem="wbU-Lk-DsV" secondAttribute="centerX" id="4fr-SP-59H"/>
-                                    <constraint firstItem="Mij-hS-kY6" firstAttribute="centerX" secondItem="YxW-GZ-bVg" secondAttribute="centerX" id="R4i-sn-NIL"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="naa-V1-ULq">
-                                <rect key="frame" x="20" y="331" width="374" height="60"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="naa-V1-ULq">
+                                <rect key="frame" x="20" y="289" width="374" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="예상 승율" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgk-1m-AmR">
                                         <rect key="frame" x="163" y="0.0" width="48.5" height="17"/>
@@ -118,8 +69,8 @@
                                     <constraint firstItem="TAA-B9-WBH" firstAttribute="trailing" secondItem="gYK-5L-s9E" secondAttribute="trailing" id="bkR-6M-eZ5"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Zja-Lb-TMt">
-                                <rect key="frame" x="20" y="416" width="374" height="488"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Zja-Lb-TMt">
+                                <rect key="frame" x="20" y="374" width="374" height="488"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="최근 경기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QB0-wY-Sjn">
                                         <rect key="frame" x="163.5" y="0.0" width="47.5" height="17"/>
@@ -190,31 +141,98 @@
                                     <constraint firstItem="ha1-Mo-08Y" firstAttribute="width" secondItem="Zja-Lb-TMt" secondAttribute="width" id="YaO-bh-nnh"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Team2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tec-aY-vnX">
-                                <rect key="frame" x="305" y="44" width="36.5" height="20"/>
-                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="ImD-po-YaK">
+                                <rect key="frame" x="20" y="44" width="374" height="225"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="aKL-l0-Pl3">
+                                        <rect key="frame" x="0.0" y="0.0" width="152.5" height="225"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0hm-Ug-NLF">
+                                                <rect key="frame" x="14" y="0.0" width="124.5" height="174.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mY4-zg-7Ja">
+                                                        <rect key="frame" x="45.5" y="0.0" width="34" height="45.5"/>
+                                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wbU-Lk-DsV">
+                                                        <rect key="frame" x="0.0" y="50.5" width="124.5" height="124"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="wbU-Lk-DsV" secondAttribute="height" multiplier="1:1" id="f1D-1h-BLF"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HomeScore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9K-Jq-Pcm" userLabel="HomeScore">
+                                                <rect key="frame" x="9" y="189.5" width="134.5" height="35.5"/>
+                                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="40"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="—" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ws-oy-7V9">
+                                        <rect key="frame" x="177.5" y="92.5" width="19" height="40"/>
+                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="JzL-RV-jjQ">
+                                        <rect key="frame" x="221.5" y="0.0" width="152.5" height="225"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0sG-HG-r6j">
+                                                <rect key="frame" x="14" y="0.0" width="124.5" height="174.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tec-aY-vnX">
+                                                        <rect key="frame" x="44" y="0.0" width="36.5" height="45.5"/>
+                                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YxW-GZ-bVg">
+                                                        <rect key="frame" x="0.0" y="50.5" width="124.5" height="124"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="YxW-GZ-bVg" secondAttribute="height" multiplier="1:1" id="al3-X4-OxO"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AwayScore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mij-hS-kY6" userLabel="AwayScore">
+                                                <rect key="frame" x="7" y="189.5" width="139" height="35.5"/>
+                                                <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="40"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9ws-oy-7V9" firstAttribute="centerX" secondItem="ImD-po-YaK" secondAttribute="centerX" id="Lc0-zc-jdo"/>
+                                    <constraint firstItem="9ws-oy-7V9" firstAttribute="centerY" secondItem="wbU-Lk-DsV" secondAttribute="centerY" id="RhE-fq-QYk"/>
+                                    <constraint firstItem="YxW-GZ-bVg" firstAttribute="centerY" secondItem="wbU-Lk-DsV" secondAttribute="centerY" id="S5c-qq-og3"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="mY4-zg-7Ja" firstAttribute="top" secondItem="Mmp-pj-Iti" secondAttribute="top" id="6VA-pc-7HB"/>
                             <constraint firstItem="naa-V1-ULq" firstAttribute="trailing" secondItem="Mmp-pj-Iti" secondAttribute="trailing" constant="-20" id="91g-cb-Vjt"/>
+                            <constraint firstItem="Mmp-pj-Iti" firstAttribute="trailing" secondItem="ImD-po-YaK" secondAttribute="trailing" constant="20" id="9oz-aC-s6h"/>
                             <constraint firstItem="Zja-Lb-TMt" firstAttribute="leading" secondItem="Mmp-pj-Iti" secondAttribute="leading" constant="20" id="B47-iw-1mr"/>
+                            <constraint firstItem="ImD-po-YaK" firstAttribute="leading" secondItem="Mmp-pj-Iti" secondAttribute="leading" constant="20" id="DAn-Pt-FZx"/>
+                            <constraint firstItem="ImD-po-YaK" firstAttribute="top" secondItem="Mmp-pj-Iti" secondAttribute="top" id="Duu-61-Z5o"/>
                             <constraint firstItem="Mmp-pj-Iti" firstAttribute="bottom" secondItem="ha1-Mo-08Y" secondAttribute="bottom" id="Fp5-JJ-YYg"/>
-                            <constraint firstItem="TmD-oy-NBK" firstAttribute="trailing" secondItem="Mmp-pj-Iti" secondAttribute="trailing" constant="-20" id="PL8-LG-LS8"/>
-                            <constraint firstItem="Tec-aY-vnX" firstAttribute="centerY" secondItem="mY4-zg-7Ja" secondAttribute="centerY" id="b5W-0W-Fii"/>
-                            <constraint firstItem="TmD-oy-NBK" firstAttribute="top" secondItem="Mmp-pj-Iti" secondAttribute="top" id="boC-fV-nBf"/>
+                            <constraint firstItem="ImD-po-YaK" firstAttribute="centerX" secondItem="Mmp-pj-Iti" secondAttribute="centerX" id="M94-VM-y3w"/>
+                            <constraint firstItem="YxW-GZ-bVg" firstAttribute="width" secondItem="gty-fc-SWX" secondAttribute="width" multiplier="0.3" id="MBv-Mu-QZi"/>
+                            <constraint firstItem="wbU-Lk-DsV" firstAttribute="width" secondItem="gty-fc-SWX" secondAttribute="width" multiplier="0.3" id="N4M-h5-Jn4"/>
+                            <constraint firstItem="naa-V1-ULq" firstAttribute="top" secondItem="ImD-po-YaK" secondAttribute="bottom" constant="20" id="ZbR-vY-9q5"/>
                             <constraint firstItem="Zja-Lb-TMt" firstAttribute="trailing" secondItem="Mmp-pj-Iti" secondAttribute="trailing" constant="-20" id="gCQ-PE-0DR"/>
                             <constraint firstItem="naa-V1-ULq" firstAttribute="leading" secondItem="Mmp-pj-Iti" secondAttribute="leading" constant="20" id="gGi-vI-auQ"/>
                             <constraint firstItem="Zja-Lb-TMt" firstAttribute="top" secondItem="naa-V1-ULq" secondAttribute="bottom" constant="25" id="ggn-04-wdn"/>
-                            <constraint firstItem="TmD-oy-NBK" firstAttribute="leading" secondItem="Mmp-pj-Iti" secondAttribute="leading" constant="20" id="iD8-XS-1eU"/>
-                            <constraint firstItem="naa-V1-ULq" firstAttribute="top" secondItem="TmD-oy-NBK" secondAttribute="bottom" constant="20" id="nuK-av-cuk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mmp-pj-Iti"/>
                     </view>
-                    <navigationItem key="navigationItem" id="dKs-Xh-ajH"/>
+                    <navigationItem key="navigationItem" title="예측 결과" id="dKs-Xh-ajH"/>
                     <connections>
                         <outlet property="DrawRate" destination="N38-K1-0VJ" id="ZhD-Vj-hlf"/>
                         <outlet property="VictoryRateBar" destination="gYK-5L-s9E" id="MFl-WA-fBj"/>
