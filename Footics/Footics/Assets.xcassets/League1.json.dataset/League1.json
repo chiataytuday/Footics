@@ -2692,6 +2692,149 @@
         ]
     },
     
+
+    
+     
+     {
+         "ClubName": "STADE BRESTOIS 29",
+         "Ground" : "Stade Francis-Le Blé",
+         "HeadCoach" : "Olivier Dall'Oglio",
+         "Defender" : [
+             {
+                 "number" : 2,
+                 "country" : "France",
+                 "name" : "Jean-Kévin Duverne"
+             },
+             {
+                 "number" : 5,
+                 "country" : "France",
+                 "name" : "Brendan Chardonnet"
+             },
+             {
+                 "number" : 12,
+                 "country" : "Benin",
+                 "name" : "David Kiki"
+             },
+             {
+                 "number" : 17,
+                 "country" : "Madagascar",
+                 "name" : "Dénys Bain"
+             },
+             {
+                 "number" : 18,
+                 "country" : "France",
+                 "name" : "Romain Perraud"
+             },
+             {
+                 "number" : 20,
+                 "country" : "France",
+                 "name" : "Gaëtan Belaud "
+             },
+             {
+                 "number" : 21,
+                 "country" : "Cameroon",
+                 "name" : "Jean-Charles Castelletto"
+             },
+             {
+                 "number" : 24,
+                 "country" : "French_Guiana",
+                 "name" : "Ludovic Baal"
+             }
+         ],
+         "Forward" : [
+             {
+                 "number" : 9,
+                 "country" : "France",
+                 "name" : "Kévin Mayi"
+             },
+             {
+                 "number" : 10,
+                 "country" : "France",
+                 "name" : "Gaëtan Charbonnier"
+             },
+             {
+                 "number" : 14,
+                 "country" : "France",
+                 "name" : "Irvin Cardona"
+             },
+             {
+                 "number" : 15,
+                 "country" : "France",
+                 "name" : "Alexandre Mendy"
+             },
+             {
+                 "number" : 25,
+                 "country" : "France",
+                 "name" : "Samuel Grandsir"
+             }
+         ],
+         "GoalKeeper" : [
+             {
+                 "number" : 1,
+                 "country" : "France",
+                 "name" : "Gautier Larsonneur"
+             },
+             {
+                 "number" : 16,
+                 "country" : "French_Guiana",
+                 "name" : "Donovan Léon"
+             }
+         ],
+         "Midfielder" : [
+             {
+                 "number" : 6,
+                 "country" : "France",
+                 "name" : "Ibrahima Diallo"
+             },
+             {
+                 "number" : 7,
+                 "country" : "Algeria",
+                 "name" : "Haris Belkebla"
+             },
+             {
+                 "number" : 8,
+                 "country" : "France",
+                 "name" : "Yoann Court"
+             },
+             {
+                 "number" : 11,
+                 "country" : "Italy",
+                 "name" : "Christian Battocchio"
+             },
+             {
+                 "number" : 13,
+                 "country" : "France",
+                 "name" : "Paul Lasne"
+             },
+             {
+                 "number" : 19,
+                 "country" : "France",
+                 "name" : "Ferris N'Goma"
+             },
+             {
+                 "number" : 22,
+                 "country" : "France",
+                 "name" : "Julien Faussurier"
+             },
+             {
+                 "number" : 23,
+                 "country" : "France",
+                 "name" : "Mathias Autret"
+             },
+             {
+                 "number" : 27,
+                 "country" : "France",
+                 "name" : "Hugo Magnetti"
+             },
+             {
+                 "number" : 28,
+                 "country" : "France",
+                 "name" : "Hiang'a Mbock"
+             }
+         ]
+     },
+     
+     
     {
         "ClubName":  "Toulouse FC",
         "Ground" : "Stadium de Toulouse",

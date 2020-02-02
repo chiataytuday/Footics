@@ -1,0 +1,289 @@
+[
+    {
+        "league" : "Premier League",
+        "hometeam" : "Everton",
+        "awayteam" : "Crystal Palace",
+        "date" : "2월 8일 (토)",
+        "time" : "21:30"
+    },
+    {
+        "league" : "Premier League",
+        "hometeam" : "Brighton and Hove Albion",
+        "awayteam" : "Watford",
+        "date" : "2월 9일 (일)",
+        "time" : "02:30"
+    },
+    {
+        "league" : "Premier League",
+        "hometeam" : "Sheffield United",
+        "awayteam" : "AFC Bournemouth",
+        "date" : "2월 9일 (일)",
+        "time" : "23:00"
+    },
+    {
+        "league" : "Premier League",
+        "hometeam" : "Manchester City",
+        "awayteam" : "West Ham United",
+        "date" : "2월 10일 (월)",
+        "time" : "01:30"
+    },
+    {
+        "league" : "Premier League",
+        "hometeam" : "Wolverhampton Wanderers",
+        "awayteam" : "Leicester City",
+        "date" : "2월 15일 (토)",
+        "time" : "05:00"
+    },
+    {
+        "league" : "Premier League",
+        "hometeam" : "Southampton",
+        "awayteam" : "Burnley FC",
+        "date" : "2월 15일 (토)",
+        "time" : "21:30"
+    },
+    {
+        "league" : "Premier League",
+        "hometeam" : "Norwich City",
+        "awayteam" : "Liverpool",
+        "date" : "2월 16일 (일)",
+        "time" : "02:30"
+    },
+    {
+        "league" : "Premier League",
+        "hometeam" : "Aston Villa",
+        "awayteam" : "Tottenham Hotspur",
+        "date" : "2월 16일 (일)",
+        "time" : "23:00"
+    },
+    {
+        "league" : "Laliga",
+        "hometeam" : "Alaves",
+        "awayteam" : "SD Eibar",
+        "date" : "2월 8일 (토)",
+        "time" : "05:00"
+    },
+    {
+        "league" : "Laliga",
+        "hometeam" : "Getafe CF",
+        "awayteam" : "Valencia CF",
+        "date" : "2월 9일 (일)",
+        "time" : "00:00"
+    },
+    {
+        "league" : "Laliga",
+        "hometeam" : "Real Valladolid CF",
+        "awayteam" : "Villarreal CF",
+        "date" : "2월 9일 (일)",
+        "time" : "02:30"
+    },
+    {
+        "league" : "Laliga",
+        "hometeam" : "Atletico de Madrid",
+        "awayteam" : "Granada CF",
+        "date" : "2월 9일 (일)",
+        "time" : "05:00"
+    },
+    {
+        "league" : "Laliga",
+        "hometeam" : "RCD Espanyol",
+        "awayteam" : "RCD Mallorca",
+        "date" : "2월 9일 (일)",
+        "time" : "20:00"
+    },
+    {
+        "league" : "Laliga",
+        "hometeam" : "Real Sociedad",
+        "awayteam" : "Athletic Club",
+        "date" : "2월 9일 (일)",
+        "time" : "22:00"
+    },
+    {
+        "league" : "Laliga",
+        "hometeam" : "Osasuna",
+        "awayteam" : "Real Madrid",
+        "date" : "2월 10일 (월)",
+        "time" : "00:00"
+    },
+    {
+       "league" : "Laliga",
+        "hometeam" : "RC Celta",
+        "awayteam" : "Sevilla FC",
+        "date" : "2월 10일 (월)",
+        "time" : "02:30"
+    },
+    {
+        "league" : "Laliga",
+        "hometeam" : "Real Betis",
+        "awayteam" : "FC Barcelona",
+        "date" : "2월 10일 (월)",
+        "time" : "05:00"
+    },
+    {
+        "league" : "SerieA",
+        "hometeam" : "AS Roma",
+        "awayteam" : "Bologna FC",
+        "date" : "2월 8일 (토)",
+        "time" : "04:45"
+    },
+    {
+        "league" : "SerieA",
+        "hometeam" : "ACF Fiorentina",
+        "awayteam" : "Atalanta BC",
+        "date" : "2월 8일 (토)",
+        "time" : "23:45"
+    },
+    {
+        "league" : "SerieA",
+        "hometeam" : "Torino FC",
+        "awayteam" : "UC Sampdoria",
+        "date" : "2월 9일 (일)",
+        "time" : "02:00"
+    },
+    {
+        "league" : "SerieA",
+        "hometeam" : "Hellas Verona FC",
+        "awayteam" :  "Juventus FC",
+        "date" : "2월 9일 (일)",
+        "time" : "04:45"
+    },
+    {
+        "league" : "SerieA",
+        "hometeam" : "SPAL",
+        "awayteam" : "US Sassuolo",
+        "date" : "2월 9일 (일)",
+        "time" : "20:30"
+    },
+    {
+        "league" : "SerieA",
+        "hometeam" : "Genoa CFC",
+        "awayteam" : "Cagliari Calcio",
+        "date" : "2월 9일 (일)",
+        "time" : "23:00"
+    },
+    {
+        "league" : "SerieA",
+        "hometeam" : "SSC Napoli",
+        "awayteam" : "US Lecce",
+        "date" : "2월 9일 (일)",
+        "time" : "23:00"
+    },
+    {
+        "league" : "SerieA",
+        "hometeam" : "Brescia Calcio",
+        "awayteam" : "Udinese Calcio",
+        "date" : "2월 9일 (일)",
+        "time" : "23:45"
+    },
+    {
+        "league" : "Bundesliga",
+        "hometeam" : "Eintracht Frankfurt",
+        "awayteam" : "FC Augsburg",
+        "date" : "2월 8일 (토)",
+        "time" : "04:30"
+    },
+    {
+        "league" : "Bundesliga",
+        "hometeam" : "VfL Wolfsburg",
+        "awayteam" : "Fortuna Düsseldorf",
+        "date" : "2월 8일 (토)",
+        "time" : "23:30"
+    },
+    {
+        "league" : "Bundesliga",
+        "hometeam" : "SV Werder Bremen",
+        "awayteam" : "FC Union Berlin",
+        "date" : "2월 8일 (토)",
+        "time" : "23:30"
+    },
+    {
+        "league" : "Bundesliga",
+        "hometeam" : "Hertha Berlin",
+        "awayteam" : "FSV Mainz 05",
+        "date" : "2월 8일 (토)",
+        "time" : "23:30"
+    },
+    {
+        "league" : "Bundesliga",
+        "hometeam" : "SC Freiburg",
+        "awayteam" : "TSG 1899 Hoffenheim",
+        "date" : "2월 8일 (토)",
+        "time" : "23:30"
+    },
+    {
+        "league" : "Bundesliga",
+        "hometeam" : "FC Schalke 04",
+        "awayteam" : "SC Paderborn 07",
+        "date" : "2월 8일 (토)",
+        "time" : "23:30"
+    },
+    {
+        "league" : "Bundesliga",
+        "hometeam" : "Bayer 04 Leverkusen",
+        "awayteam" : "Borussia Dortmund",
+        "date" : "2월 9일 (일)",
+        "time" : "02:30"
+    },
+    {
+        "league" : "Bundesliga",
+        "hometeam" : "Borussia Mönchengladbach",
+        "awayteam" : "FC Köln",
+        "date" : "2월 9일 (일)",
+        "time" : "23:30"
+    },
+    {
+        "league" : "League1",
+        "hometeam" : "ANGERS SCO",
+        "awayteam" : "LOSC Lille",
+        "date" : "2월 8일 (토)",
+        "time" : "04:45"
+    },
+    {
+        "league" : "League1",
+        "hometeam" : "OLYMPIQUE DE MARSEILLE",
+        "awayteam" : "Toulouse FC",
+        "date" : "2월 9일 (일)",
+        "time" : "01:30"
+    },
+    {
+        "league" : "League1",
+        "hometeam" : "Stade Rennais FC",
+        "awayteam" : "STADE BRESTOIS 29",
+        "date" : "2월 9일 (일)",
+        "time" : "04:00"
+    },
+    {
+        "league" : "League1",
+        "hometeam" : "Dijon FCO",
+        "awayteam" : "FC NANTES",
+        "date" : "2월 9일 (일)",
+        "time" : "04:00"
+    },
+    {
+        "league" : "League1",
+        "hometeam" : "AMIENS SC",
+        "awayteam" : "AS Monaco FC",
+        "date" : "2월 9일 (일)",
+        "time" : "04:00"
+    },
+    {
+        "league" : "League1",
+        "hometeam" : "OGC NICE",
+        "awayteam" : "NIMES OLYMPIQUE",
+        "date" : "2월 9일 (일)",
+        "time" : "04:00"
+    },
+    {
+        "league" : "League1",
+        "hometeam" : "FC Metz",
+        "awayteam" : "FC GIRONDINS DE BORDEAUX",
+        "date" : "2월 9일 (일)",
+        "time" : "04:00"
+    },
+    {
+        "league" : "League1",
+        "hometeam" : "MONTPELLIER HSC",
+        "awayteam" : "AS SAINT-ETIENNE",
+        "date" : "2월 9일 (일)",
+        "time" : "23:00"
+    }
+]

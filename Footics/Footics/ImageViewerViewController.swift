@@ -76,6 +76,7 @@ class ImageViewerViewController: UIViewController {
     var goalkeeperList = [[String: Any]]()
     var forwardList = [[String: Any]]()
     
+    @IBOutlet weak var teamGroundLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var teamNameLabel: UILabel!
     @IBOutlet weak var teamLeagueLabel: UILabel!
@@ -134,6 +135,7 @@ class ImageViewerViewController: UIViewController {
                     
                 }
         }
+        teamGroundLabel.text = Ground
         teamSquadTable.delegate = self
         teamSquadTable.dataSource = self
         
@@ -190,25 +192,25 @@ extension ImageViewerViewController: UITableViewDelegate, UITableViewDataSource{
             let dictionary = self.goalkeeperList[(indexPath as NSIndexPath).row]
             playerCell.playerNameLabel?.text = dictionary["Name"] as? String
             tempNum = "\(dictionary["Number"]!)"
-            playerCell.playerNumberLabel?.text = tempNum
+            playerCell.playerNumberLabel?.text = "\(tempNum)."
             playerCell.playerCountryLabel?.text = dictionary["Country"] as? String
         case 2:
             let dictionary = self.defenderList[(indexPath as NSIndexPath).row]
             playerCell.playerNameLabel?.text = dictionary["Name"] as? String
             tempNum = "\(dictionary["Number"]!)"
-            playerCell.playerNumberLabel?.text = tempNum
+            playerCell.playerNumberLabel?.text = "\(tempNum)."
             playerCell.playerCountryLabel?.text = dictionary["Country"] as? String
         case 3:
             let dictionary = self.midfielderList[(indexPath as NSIndexPath).row]
             playerCell.playerNameLabel?.text = dictionary["Name"] as? String
             tempNum = "\(dictionary["Number"]!)"
-            playerCell.playerNumberLabel?.text = tempNum
+            playerCell.playerNumberLabel?.text = "\(tempNum)."
             playerCell.playerCountryLabel?.text = dictionary["Country"] as? String
         case 4:
             let dictionary = self.forwardList[(indexPath as NSIndexPath).row]
             playerCell.playerNameLabel?.text = dictionary["Name"] as? String
             tempNum = "\(dictionary["Number"]!)"
-            playerCell.playerNumberLabel?.text = tempNum
+            playerCell.playerNumberLabel?.text = "\(tempNum)."
             playerCell.playerCountryLabel?.text = dictionary["Country"] as? String
         default:
             break

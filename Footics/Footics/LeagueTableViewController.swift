@@ -25,8 +25,9 @@ class LeagueTableViewController: UIViewController{
     
     let bundesliga = ["FC Bayern München","Borussia Dortmund","RB Leipzig", "Bayer 04 Leverkusen", "Borussia Mönchengladbach", "VfL Wolfsburg", "Eintracht Frankfurt", "SV Werder Bremen", "TSG 1899 Hoffenheim", "Fortuna Düsseldorf", "Hertha Berlin", "FSV Mainz 05", "SC Freiburg", "FC Schalke 04", "FC Augsburg", "FC Köln", "SC Paderborn 07", "FC Union Berlin"]
     
-    let league1 = ["PARIS SAINT-GERMAIN", "OLYMPIQUE DE MARSEILLE", "Stade Rennais FC", "FC NANTES", "LOSC Lille", "MONTPELLIER HSC", "OLYMPIQUE LYONNAIS", "STADE DE REIMS", "AS Monaco FC", "ANGERS SCO", "OGC NICE", "RC Strasbourg Alsace", "FC GIRONDINS DE BORDEAUX", "AS SAINT-ETIENNE", "Dijon FCO", "FC Metz", "AMIENS SC", "NIMES OLYMPIQUE", "Toulouse FC"]
+    let league1 = ["PARIS SAINT-GERMAIN", "OLYMPIQUE DE MARSEILLE", "Stade Rennais FC", "FC NANTES", "LOSC Lille", "MONTPELLIER HSC", "OLYMPIQUE LYONNAIS", "STADE DE REIMS", "AS Monaco FC", "ANGERS SCO", "OGC NICE", "RC Strasbourg Alsace","FC GIRONDINS DE BORDEAUX", "AS SAINT-ETIENNE", "Dijon FCO", "FC Metz", "AMIENS SC", "NIMES OLYMPIQUE", "Toulouse FC", "STADE BRESTOIS 29"]
     
+
     var leagueList:[League] = [
         League(leagueImage: "Premier", description: "Premier League", countryImage: "England", countryLabel: "England"),
     League(leagueImage: "Laliga", description: "Laliga", countryImage: "Spain", countryLabel: "Spain"),
