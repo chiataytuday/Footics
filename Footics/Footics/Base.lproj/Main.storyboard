@@ -189,7 +189,7 @@
                                 <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="22"/>
                                 <connections>
                                     <action selector="predictViewButton:" destination="jww-vy-WCw" eventType="touchUpInside" id="lmo-qS-BPj"/>
-                                    <segue destination="dVv-1T-aWD" kind="show" identifier="predictResultShowIdentifier" id="sq0-Zk-2u5"/>
+                                    <segue destination="BGq-QJ-3MX" kind="show" identifier="predictResultShowIdentifier" id="q6B-zv-Kbw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -230,6 +230,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FbP-xr-DQm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3868" y="89.408866995073893"/>
+        </scene>
+        <!--ResultView-->
+        <scene sceneID="B1p-Oq-711">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ResultPredict" referencedIdentifier="ResultView" id="BGq-QJ-3MX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ffS-5j-Bt6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jhl-EH-2Ii" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3868" y="584"/>
         </scene>
         <!--Image Viewer View Controller-->
         <scene sceneID="MnL-9k-i6N">
@@ -373,73 +383,6 @@
                 <exit id="Aa7-T5-8Ry" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4722.3999999999996" y="88.669950738916256"/>
-        </scene>
-        <!--Result Predict View Controller-->
-        <scene sceneID="RUj-ht-n1f">
-            <objects>
-                <viewController storyboardIdentifier="ResultView" id="dVv-1T-aWD" customClass="ResultPredictViewController" customModule="Footics" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="VBK-WT-jD0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="hY9-30-UV9">
-                                <rect key="frame" x="20" y="98" width="335" height="20"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQ2-BP-tTR">
-                                        <rect key="frame" x="0.0" y="0.0" width="127.66666666666667" height="20"/>
-                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPF-2k-xBV">
-                                        <rect key="frame" x="207.66666666666666" y="0.0" width="127.33333333333334" height="20"/>
-                                        <fontDescription key="fontDescription" name="Koverwatch" family="Koverwatch" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="slb-yl-6aH">
-                                <rect key="frame" x="20" y="138" width="335" height="130"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="px2-c7-TYc">
-                                        <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="130" id="K2X-Ke-av2"/>
-                                            <constraint firstAttribute="height" constant="130" id="vro-mK-biR"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wqa-H2-uHh">
-                                        <rect key="frame" x="210" y="0.0" width="125" height="130"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="130" id="J1o-5d-GEk"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="hY9-30-UV9" firstAttribute="top" secondItem="0rq-4X-Vzy" secondAttribute="top" constant="10" id="1Qx-Ed-RDj"/>
-                            <constraint firstItem="slb-yl-6aH" firstAttribute="leading" secondItem="VBK-WT-jD0" secondAttribute="leading" constant="20" id="8iE-X5-fMw"/>
-                            <constraint firstItem="slb-yl-6aH" firstAttribute="top" secondItem="0rq-4X-Vzy" secondAttribute="top" constant="50" id="FSN-vP-WJh"/>
-                            <constraint firstItem="hY9-30-UV9" firstAttribute="trailing" secondItem="VBK-WT-jD0" secondAttribute="trailing" constant="-20" id="IFO-mG-Esw"/>
-                            <constraint firstItem="slb-yl-6aH" firstAttribute="trailing" secondItem="VBK-WT-jD0" secondAttribute="trailing" constant="-20" id="ZMG-CA-cD2"/>
-                            <constraint firstItem="hY9-30-UV9" firstAttribute="leading" secondItem="VBK-WT-jD0" secondAttribute="leading" constant="20" id="opC-Jx-Av6"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="0rq-4X-Vzy"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8LC-Zd-35i"/>
-                    <connections>
-                        <outlet property="teamOneLogo" destination="px2-c7-TYc" id="8GK-wI-8md"/>
-                        <outlet property="teamOneName" destination="tQ2-BP-tTR" id="fr4-gh-fEl"/>
-                        <outlet property="teamTwoLogo" destination="wqa-H2-uHh" id="ge6-ey-lZc"/>
-                        <outlet property="teamTwoName" destination="xPF-2k-xBV" id="L9A-6d-OVd"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NVM-UH-lto" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5664.8000000000002" y="826.84729064039414"/>
         </scene>
         <!--일정-->
         <scene sceneID="YEU-Ph-7XO">
