@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		64F9336ACD8614308294C9AC /* Pods_Footics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F69E4337C0B77F45A2977C /* Pods_Footics.framework */; };
-		7B43F89B23E72DC000A0A8CC /* ResultPredict.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B43F89923E72DC000A0A8CC /* ResultPredict.storyboard */; };
-		7B43F89C23E72DC000A0A8CC /* ResultPredictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B43F89A23E72DC000A0A8CC /* ResultPredictViewController.swift */; };
 		9D28CC2623D6DD70007A0552 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D28CC2523D6DD70007A0552 /* GoogleService-Info.plist */; };
+		9D28CC2823D6F5D6007A0552 /* ResultPredictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D28CC2723D6F5D6007A0552 /* ResultPredictViewController.swift */; };
 		9D3C6A7623E354220010D1DA /* ImageViewerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C6A7523E354220010D1DA /* ImageViewerCell.swift */; };
 		9D3D91B323CF1D0D0057001B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D91B223CF1D0D0057001B /* AppDelegate.swift */; };
 		9D3D91B523CF1D0D0057001B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D91B423CF1D0D0057001B /* SceneDelegate.swift */; };
@@ -27,14 +26,15 @@
 		9D6DCFE323D30A00008330A2 /* ClubCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6DCFE123D30A00008330A2 /* ClubCollectionViewCell.xib */; };
 		9D6DCFE523D31617008330A2 /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6DCFE423D31617008330A2 /* ImageViewerViewController.swift */; };
 		9D961EE923E4441700546D73 /* LeagueCalendarTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D961EE823E4441700546D73 /* LeagueCalendarTableView.swift */; };
+		9DB5563423E74D40006A36F2 /* HomeScore 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5563323E74D40006A36F2 /* HomeScore 1.mlmodel */; };
+		9DB5563623E74D4E006A36F2 /* MyTabularClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5563523E74D4D006A36F2 /* MyTabularClassifier 1.mlmodel */; };
 		9DE9393823CF919900BF08F7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9393723CF919900BF08F7 /* Default-568h@2x.png */; };
 		9DE9393A23CF94FD00BF08F7 /* ClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9393923CF94FD00BF08F7 /* ClubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B43F89923E72DC000A0A8CC /* ResultPredict.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ResultPredict.storyboard; sourceTree = "<group>"; };
-		7B43F89A23E72DC000A0A8CC /* ResultPredictViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultPredictViewController.swift; sourceTree = "<group>"; };
 		9D28CC2523D6DD70007A0552 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D28CC2723D6F5D6007A0552 /* ResultPredictViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPredictViewController.swift; sourceTree = "<group>"; };
 		9D3C6A7523E354220010D1DA /* ImageViewerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerCell.swift; sourceTree = "<group>"; };
 		9D3D91AF23CF1D0D0057001B /* Footics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Footics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3D91B223CF1D0D0057001B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		9D6DCFE123D30A00008330A2 /* ClubCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClubCollectionViewCell.xib; sourceTree = "<group>"; };
 		9D6DCFE423D31617008330A2 /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
 		9D961EE823E4441700546D73 /* LeagueCalendarTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueCalendarTableView.swift; sourceTree = "<group>"; };
+		9DB5563323E74D40006A36F2 /* HomeScore 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "HomeScore 1.mlmodel"; sourceTree = "<group>"; };
+		9DB5563523E74D4D006A36F2 /* MyTabularClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyTabularClassifier 1.mlmodel"; sourceTree = "<group>"; };
 		9DE9393723CF919900BF08F7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9DE9393923CF94FD00BF08F7 /* ClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubViewController.swift; sourceTree = "<group>"; };
 		B6A1CE45168FE0FA2E76A621 /* Pods-Footics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Footics.release.xcconfig"; path = "Target Support Files/Pods-Footics/Pods-Footics.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +110,8 @@
 				9D3D91B223CF1D0D0057001B /* AppDelegate.swift */,
 				9D3D91B423CF1D0D0057001B /* SceneDelegate.swift */,
 				9D3D91B623CF1D0D0057001B /* ViewController.swift */,
+				9DB5563323E74D40006A36F2 /* HomeScore 1.mlmodel */,
+				9DB5563523E74D4D006A36F2 /* MyTabularClassifier 1.mlmodel */,
 				9D3D91B823CF1D0D0057001B /* Main.storyboard */,
 				9D3D91BB23CF1D100057001B /* Assets.xcassets */,
 				9D3D91BD23CF1D100057001B /* LaunchScreen.storyboard */,
@@ -117,11 +121,10 @@
 				9D6DCFE423D31617008330A2 /* ImageViewerViewController.swift */,
 				9D28CC2523D6DD70007A0552 /* GoogleService-Info.plist */,
 				9D6DCFE123D30A00008330A2 /* ClubCollectionViewCell.xib */,
+				9D28CC2723D6F5D6007A0552 /* ResultPredictViewController.swift */,
 				9D3C6A7523E354220010D1DA /* ImageViewerCell.swift */,
 				9D961EE823E4441700546D73 /* LeagueCalendarTableView.swift */,
 				9D440EB623E57682002CED09 /* LeagueCalandarCell.swift */,
-				7B43F89923E72DC000A0A8CC /* ResultPredict.storyboard */,
-				7B43F89A23E72DC000A0A8CC /* ResultPredictViewController.swift */,
 			);
 			path = Footics;
 			sourceTree = "<group>";
@@ -205,7 +208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D3D91D623CF3C2D0057001B /* koverwatch.ttf in Resources */,
-				7B43F89B23E72DC000A0A8CC /* ResultPredict.storyboard in Resources */,
 				9D28CC2623D6DD70007A0552 /* GoogleService-Info.plist in Resources */,
 				9D3D91BF23CF1D100057001B /* LaunchScreen.storyboard in Resources */,
 				9D3D91BC23CF1D100057001B /* Assets.xcassets in Resources */,
@@ -266,13 +268,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D440EB723E57682002CED09 /* LeagueCalandarCell.swift in Sources */,
+				9DB5563423E74D40006A36F2 /* HomeScore 1.mlmodel in Sources */,
+				9DB5563623E74D4E006A36F2 /* MyTabularClassifier 1.mlmodel in Sources */,
 				9D3D91CB23CF21740057001B /* LeagueTableViewController.swift in Sources */,
+				9D28CC2823D6F5D6007A0552 /* ResultPredictViewController.swift in Sources */,
 				9D961EE923E4441700546D73 /* LeagueCalendarTableView.swift in Sources */,
 				9D6DCFE223D30A00008330A2 /* ClubCollectionViewCell.swift in Sources */,
 				9DE9393A23CF94FD00BF08F7 /* ClubViewController.swift in Sources */,
 				9D3D91CD23CF23B50057001B /* LeagueTableViewCell.swift in Sources */,
 				9D3D91B723CF1D0D0057001B /* ViewController.swift in Sources */,
-				7B43F89C23E72DC000A0A8CC /* ResultPredictViewController.swift in Sources */,
 				9D3D91B323CF1D0D0057001B /* AppDelegate.swift in Sources */,
 				9D6DCFE523D31617008330A2 /* ImageViewerViewController.swift in Sources */,
 				9D3D91B523CF1D0D0057001B /* SceneDelegate.swift in Sources */,
