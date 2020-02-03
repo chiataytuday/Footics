@@ -60,7 +60,7 @@ class ResultPredictViewController: UIViewController{
     
     override func viewDidLoad() {
             super.viewDidLoad()
-               teamOneName.text = teamOne
+         teamOneName.text = teamOne
          teamTwoName.text = teamTwo
          
          teamOneLogo.image = UIImage(named: teamOne)
@@ -119,15 +119,17 @@ class ResultPredictViewController: UIViewController{
             if(key == "H"){
                 temp = Int(value * 100)
                 teamOneWinRate.text = "홈 승리: " + Int(value * 100).description + "%" // 팀1 승리 확률
+                VictoryRateBar1_constr.constant = (view_width + VictoryRateBar_trailing_constr.constant - VictoryRateBar_leading_constr.constant) * CGFloat(value) // 팀1 승리 확률 막대 길이 조정
 //                print("홈 팀이 이길확률 \(temp)%")
             }else if(key == "A"){
                 temp = Int(value * 100)
                 teamTwoWinRate.text = "어웨이 승리: " + Int(value * 100).description + "%" // 무승부 확률
+                 VictoryRateBar2_constr.constant = (view_width + VictoryRateBar_trailing_constr.constant - VictoryRateBar_leading_constr.constant) * CGFloat(value) // 무승보 확률 막대 길이 조정
 //                print("어웨이 팀이 이길확률 \(temp)%")
             }else{
                 temp = Int(value * 100)
                 DrawRate.text = "무승부: " + Int(value * 100).description + "%" // 팀2 승리 확률
-
+                VictoryRateBar3_constr.constant = (view_width + VictoryRateBar_trailing_constr.constant - VictoryRateBar_leading_constr.constant) * CGFloat(value) // 팀2 승리 확률 막대 길이 조정
 //                print("경기가 무승부일 확률 \(temp)%")
             }
         }
